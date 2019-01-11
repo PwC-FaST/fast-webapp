@@ -1,0 +1,12 @@
+- model: farming.FarmingCommitment
+  pk: ORG
+  fields:
+    name:
+      en: Organic
+      fr: Agriculture biologique
+- model: farming.FarmingCommitment
+  pk: AGF
+  fields:
+    name:
+      en: Agroforestry
+      fr: Agroforestrie

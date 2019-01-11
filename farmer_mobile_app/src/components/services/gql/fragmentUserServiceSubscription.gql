@@ -1,0 +1,4 @@
+fragment fragmentUserServiceSubscription on UserServiceSubscriptionType {
+  id
+  subscribedAt
+}

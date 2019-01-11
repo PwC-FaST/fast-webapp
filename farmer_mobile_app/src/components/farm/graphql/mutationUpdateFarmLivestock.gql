@@ -1,0 +1,10 @@
+#import "./fragmentFarmLivestock.gql"
+
+mutation UpdateFarmLivestock($farmId: ID!, $livestockSpeciesId: ID!, $numberOfHeads: Int!, $startAt: DateTime, $endAt: DateTime) {
+  updateFarmLivestock(farmId: $farmId, livestockSpeciesId: $livestockSpeciesId, numberOfHeads: $numberOfHeads, startAt: $startAt, endAt: $endAt) {
+    farmLivestock {
+      ...fragmentFarmLivestock
+    }
+    created
+  }
+}

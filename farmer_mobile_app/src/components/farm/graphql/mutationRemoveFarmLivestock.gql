@@ -1,0 +1,9 @@
+#import "./fragmentFarmLivestock.gql"
+
+mutation RemoveFarmLivestock($farmId: ID!, $livestockSpeciesId: ID!) {
+  removeFarmLivestock(farmId: $farmId, livestockSpeciesId: $livestockSpeciesId) {
+    farmLivestock {
+      ...fragmentFarmLivestock
+    }
+  }
+}

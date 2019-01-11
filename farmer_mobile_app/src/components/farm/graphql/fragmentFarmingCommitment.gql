@@ -1,0 +1,4 @@
+fragment fragmentFarmingCommitment on FarmingCommitmentType {
+  id
+  name
+}

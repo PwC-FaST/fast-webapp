@@ -1,0 +1,40 @@
+#import "../../core/graphql/fragmentUser.gql"
+#import "./fragmentGisInfo.gql"
+#import "./fragmentSoilInfo.gql"
+#import "./fragmentAddress.gql"
+#import "./fragmentFarmingCommitment.gql"
+#import "./fragmentHydroIntersection.gql"
+#import "./fragmentNatura2000Intersection.gql"
+#import "./fragmentCropSpecies.gql"
+
+fragment fragmentFarmParcel on FarmParcelType {
+  id
+  lpisParcelId
+  name
+  addedAt
+  addedBy {
+    ...fragmentUser
+  }
+  cropSpecies {
+    ...fragmentCropSpecies
+  }
+  gisInfo {
+    ...fragmentGisInfo
+  }
+  address {
+    ...fragmentAddress
+  }
+  soilInfo {
+    ...fragmentSoilInfo
+  }
+  farmingCommitments {
+    ...fragmentFarmingCommitment
+  }
+  hydroIntersections {
+    ...fragmentHydroIntersection
+  }
+  natura2000Intersections {
+    ...fragmentNatura2000Intersection
+  }
+  snapshotSvg
+}

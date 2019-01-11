@@ -1,0 +1,7 @@
+#import "./fragmentThread.gql"
+
+query threads {
+  threads {
+    ...fragmentThread
+  }
+}

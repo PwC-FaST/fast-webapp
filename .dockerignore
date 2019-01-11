@@ -1,0 +1,4 @@
+data/
+farmer_mobile_app/dist/
+farmer_mobile_app/node_modules/
+.venv

@@ -1,0 +1,9 @@
+#import "./fragmentImportedOrExportedLivestockManure.gql"
+
+mutation CreateImportedOrExportedLivestockManure($planId: ID!, $livestockSpeciesId: ID!, $purity: Float, $nitrogenContent: Float, $phosphorusContent: Float, $potassiumContent: Float, $totalQuantity: Float!) {
+  createImportedOrExportedLivestockManure(planId: $planId, livestockSpeciesId: $livestockSpeciesId, purity: $purity, nitrogenContent: $nitrogenContent, phosphorusContent: $phosphorusContent, potassiumContent:$potassiumContent, totalQuantity: $totalQuantity) {
+    importedOrExportedLivestockManure {
+      ...fragmentImportedOrExportedLivestockManure
+    }
+  }
+}

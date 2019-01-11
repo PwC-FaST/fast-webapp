@@ -1,0 +1,9 @@
+#import "./fragmentPlan.gql"
+
+mutation createPlan($farmId: ID!, $name: String) {
+  createPlan(farmId: $farmId, name: $name) {
+    plan {
+     ...fragmentPlan
+    }
+  }
+}

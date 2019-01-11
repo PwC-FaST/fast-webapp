@@ -1,0 +1,7 @@
+#import "./fragmentFarmParcel.gql"
+
+query farmParcel($farmParcelId: ID!) {
+  farmParcel(farmParcelId: $farmParcelId) {
+    ...fragmentFarmParcel
+  }
+}

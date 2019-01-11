@@ -1,0 +1,7 @@
+#import "./fragmentContact.gql"
+
+query {
+  myContacts {
+    ...fragmentContact
+  }
+}

@@ -1,0 +1,288 @@
+# loosely based on classification from https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32008R1165
+
+- model: farming.LivestockSpecies
+  pk: 100
+  fields:
+    icon: farming/livestock_species/icons/2018/12/01/cow_bw.svg
+    name_singular:
+      en: cow
+      fr: bovin
+      es: bovino
+    name_plural:
+      en: cows
+      fr: bovins
+      es: bovinos
+    default_manure_purity: 0.8
+    default_manure_liters_per_head_per_day: 50
+    default_manure_nitrogen_content: 0.0015
+    default_manure_phosphorus_content: 0.0018
+    default_manure_potassium_content: 0.0015
+    default_manure_storage_days: 125
+- model: farming.LivestockSpecies
+  pk: 101
+  fields:
+    parent: 100
+    name_singular:
+      en: cow (< 1 year old)
+      fr: bovin (< 1 an)
+      es: bovino (< 1 año)
+    name_plural:
+      en: cows (< 1 year old)
+      fr: bovins (< 1 an)
+      es: bovinos (< 1 año)
+    default_manure_purity: 0.8
+    default_manure_liters_per_head_per_day: 50
+    default_manure_nitrogen_content: 0.0015
+    default_manure_phosphorus_content: 0.0018
+    default_manure_potassium_content: 0.0015
+    default_manure_storage_days: 125
+- model: farming.LivestockSpecies
+  pk: 102
+  fields:
+    parent: 100
+    name_singular:
+      en: cow (1 - 2 years old)
+      fr: bovin (1 à 2 ans)
+      es: bovino (1 a 2 años)
+    name_plural:
+      en: cows (1 - 2 years old)
+      fr: bovins (1 à 2 ans)
+      es: bovinos (1 a 2 años)
+    default_manure_purity: 0.8
+    default_manure_liters_per_head_per_day: 50
+    default_manure_nitrogen_content: 0.0015
+    default_manure_phosphorus_content: 0.0018
+    default_manure_potassium_content: 0.0015
+    default_manure_storage_days: 125
+- model: farming.LivestockSpecies
+  pk: 103
+  fields:
+    parent: 100
+    name_singular:
+      en: cow (> 2 years old)
+      fr: bovin (> 2 ans)
+      es: bovino (> 2 años)
+    name_plural:
+      en: cows (> 2 years old)
+      fr: bovins (> 2 ans)
+      es: bovinos (> 2 años)
+    default_manure_purity: 0.8
+    default_manure_liters_per_head_per_day: 50
+    default_manure_nitrogen_content: 0.0015
+    default_manure_phosphorus_content: 0.0018
+    default_manure_potassium_content: 0.0015
+    default_manure_storage_days: 125
+- model: farming.LivestockSpecies
+  pk: 104
+  fields:
+    parent: 100
+    name_singular:
+      en: buffalo
+      fr: buffle
+    name_plural:
+      en: buffaloes
+      fr: buffles
+    default_manure_purity: 0.8
+    default_manure_liters_per_head_per_day: 50
+    default_manure_nitrogen_content: 0.0015
+    default_manure_phosphorus_content: 0.0018
+    default_manure_potassium_content: 0.0015
+    default_manure_storage_days: 125
+
+
+- model: farming.LivestockSpecies
+  pk: 200
+  fields:
+    icon: farming/livestock_species/icons/2018/12/01/sheep_bw.svg
+    name_singular:
+      en: sheep
+      fr: ovin
+    name_plural:
+      en: sheep
+      fr: ovins
+    default_manure_purity: 0.9
+    default_manure_liters_per_head_per_day: 1.8
+    default_manure_nitrogen_content: 0.0015
+    default_manure_phosphorus_content: 0.0018
+    default_manure_potassium_content: 0.0015
+    default_manure_storage_days: 105
+- model: farming.LivestockSpecies
+  pk: 201
+  fields:
+    parent: 200
+    name_singular:
+      en: ewe
+      fr: brebis
+    name_plural:
+      en: ewes
+      fr: brebis
+    default_manure_purity: 0.9
+    default_manure_liters_per_head_per_day: 1.8
+    default_manure_nitrogen_content: 0.0015
+    default_manure_phosphorus_content: 0.0018
+    default_manure_potassium_content: 0.0015
+    default_manure_storage_days: 105
+- model: farming.LivestockSpecies
+  pk: 202
+  fields:
+    parent: 200
+    name_singular:
+      en: sheep (male)
+      fr: mouton (mâle)
+    name_plural:
+      en: sheep (males)
+      fr: moutons (mâles)
+    default_manure_purity: 0.9
+    default_manure_liters_per_head_per_day: 1.8
+    default_manure_nitrogen_content: 0.0015
+    default_manure_phosphorus_content: 0.0018
+    default_manure_potassium_content: 0.0015
+    default_manure_storage_days: 105
+
+
+- model: farming.LivestockSpecies
+  pk: 300
+  fields:
+    icon: farming/livestock_species/icons/2018/12/01/pig_bw.svg
+    name_singular:
+      en: pig
+      fr: porc
+    name_plural:
+      en: pigs
+      fr: porcs
+    default_manure_purity: 0.9
+    default_manure_liters_per_head_per_day: 5
+    default_manure_nitrogen_content: 0.0015
+    default_manure_phosphorus_content: 0.0018
+    default_manure_potassium_content: 0.0015
+    default_manure_storage_days: 97
+- model: farming.LivestockSpecies
+  pk: 301
+  fields:
+    parent: 300
+    name_singular:
+      en: piglet (< 20kg)
+      fr: porcelet (< 20kg)
+    name_plural:
+      en: piglets (< 20kg)
+      fr: porcelets (< 20kg)
+    default_manure_purity: 0.9
+    default_manure_liters_per_head_per_day: 5
+    default_manure_nitrogen_content: 0.0015
+    default_manure_phosphorus_content: 0.0018
+    default_manure_potassium_content: 0.0015
+    default_manure_storage_days: 97
+- model: farming.LivestockSpecies
+  pk: 302
+  fields:
+    parent: 300
+    name_singular:
+      en: pig (20 - 50kg)
+      fr: porc (20 - 50kg)
+    name_plural:
+      en: pigs (20 - 50kg)
+      fr: porcs (20 - 50kg)
+    default_manure_purity: 0.9
+    default_manure_liters_per_head_per_day: 5
+    default_manure_nitrogen_content: 0.0015
+    default_manure_phosphorus_content: 0.0018
+    default_manure_potassium_content: 0.0015
+    default_manure_storage_days: 97
+- model: farming.LivestockSpecies
+  pk: 303
+  fields:
+    parent: 300
+    name_singular:
+      en: fattening pig (50 - 80kg)
+      fr: porc à l'engrais (50 - 80kg)
+    name_plural:
+      en: fattening pigs (50 - 80kg)
+      fr: porcs à l'engrais (50 - 80kg)
+    default_manure_purity: 0.9
+    default_manure_liters_per_head_per_day: 5
+    default_manure_nitrogen_content: 0.0015
+    default_manure_phosphorus_content: 0.0018
+    default_manure_potassium_content: 0.0015
+    default_manure_storage_days: 97
+- model: farming.LivestockSpecies
+  pk: 304
+  fields:
+    parent: 300
+    name_singular:
+      en: fattening pig (80 - 110kg)
+      fr: porc à l'engrais (80 - 110kg)
+    name_plural:
+      en: fattening pigs (80 - 110kg)
+      fr: porcs à l'engrais (80 - 110kg)
+    default_manure_purity: 0.9
+    default_manure_liters_per_head_per_day: 5
+    default_manure_nitrogen_content: 0.0015
+    default_manure_phosphorus_content: 0.0018
+    default_manure_potassium_content: 0.0015
+    default_manure_storage_days: 97
+- model: farming.LivestockSpecies
+  pk: 305
+  fields:
+    parent: 300
+    name_singular:
+      en: fattening pig (> 110kg)
+      fr: porc à l'engrais (> 110kg)
+    name_plural:
+      en: fattening pigs (> 110kg)
+      fr: porcs à l'engrais (> 110kg)
+    default_manure_purity: 0.9
+    default_manure_liters_per_head_per_day: 5
+    default_manure_nitrogen_content: 0.0015
+    default_manure_phosphorus_content: 0.0018
+    default_manure_potassium_content: 0.0015
+    default_manure_storage_days: 97
+- model: farming.LivestockSpecies
+  pk: 307
+  fields:
+    parent: 300
+    name_singular:
+      en: breeding pig (> 50kg)
+      fr: porc reproducteur (> 50kg)
+    name_plural:
+      en: breeding pigs (> 50kg)
+      fr: porcs reproducteurs (> 50kg)
+    default_manure_purity: 0.9
+    default_manure_liters_per_head_per_day: 5
+    default_manure_nitrogen_content: 0.0015
+    default_manure_phosphorus_content: 0.0018
+    default_manure_potassium_content: 0.0015
+    default_manure_storage_days: 97
+
+
+- model: farming.LivestockSpecies
+  pk: 400
+  fields:
+    icon: farming/livestock_species/icons/2018/12/01/goat_bw.svg
+    name_singular:
+      en: goat
+      fr: caprin
+    name_plural:
+      en: goats
+      fr: caprins
+    default_manure_purity: 0.9
+    default_manure_liters_per_head_per_day: 1.5
+    default_manure_nitrogen_content: 0.0015
+    default_manure_phosphorus_content: 0.0018
+    default_manure_potassium_content: 0.0015
+    default_manure_storage_days: 105
+- model: farming.LivestockSpecies
+  pk: 401
+  fields:
+    parent: 400
+    name_singular:
+      en: goat
+      fr: chèvre
+    name_plural:
+      en: goats
+      fr: chèvres
+    default_manure_purity: 0.9
+    default_manure_liters_per_head_per_day: 1.5
+    default_manure_nitrogen_content: 0.0015
+    default_manure_phosphorus_content: 0.0018
+    default_manure_potassium_content: 0.0015
+    default_manure_storage_days: 105

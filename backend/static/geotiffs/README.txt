@@ -1,0 +1,1 @@
+These geotiffs are meant to fake some underlying NDVI or infrared calculations made on top of Sentinel 2 data.

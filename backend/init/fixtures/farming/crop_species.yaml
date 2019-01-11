@@ -1,0 +1,1001 @@
+# from
+
+- model: farming.CropSpecies
+  pk: 1
+  fields:
+    default_yield_per_hectare: 70000
+    name_singular:
+      en: Sugar beet
+    name_plural:
+      en: Sugar beet
+    name_latin: Beta vulgaris L.
+- model: farming.CropSpecies
+  pk: 2
+  fields:
+    default_yield_per_hectare: 14000
+    name_singular:
+      en: Fodder beet
+    name_plural:
+      en: Fodder beet
+    name_latin: Beta vulgaris L.
+- model: farming.CropSpecies
+  pk: 3
+  fields:
+    default_yield_per_hectare: 3000
+    name_singular:
+      en: Velvet bent
+    name_plural:
+      en: Velvet bent
+    name_latin: Agrostis canina
+- model: farming.CropSpecies
+  pk: 4
+  fields:
+    default_yield_per_hectare: 3000
+    name_singular:
+      en: Red top
+    name_plural:
+      en: Red top
+    name_latin: Agrostis gigantea
+- model: farming.CropSpecies
+  pk: 5
+  fields:
+    default_yield_per_hectare: 1700
+    name_singular:
+      en: Creeping bent
+    name_plural:
+      en: Creeping bent
+    name_latin: Agrostis stolonifera
+- model: farming.CropSpecies
+  pk: 6
+  fields:
+    default_yield_per_hectare: 1500
+    name_singular:
+      en: Brown top
+    name_plural:
+      en: Brown top
+    name_latin: Agrostis capillaris
+- model: farming.CropSpecies
+  pk: 7
+  fields:
+    default_yield_per_hectare: 9500
+    name_singular:
+      en: Meadow foxtail
+    name_plural:
+      en: Meadow foxtail
+    name_latin: Alopecurus pratensis
+- model: farming.CropSpecies
+  pk: 8
+  fields:
+    default_yield_per_hectare: 10000
+    name_singular:
+      en: Tall oatgrass
+    name_plural:
+      en: Tall oatgrass
+    name_latin: Arrhenatherum elatius 
+- model: farming.CropSpecies
+  pk: 9
+  fields:
+    default_yield_per_hectare: 10000
+    name_singular:
+      en: Rescue grass
+    name_plural:
+      en: Rescue grass
+    name_latin: Bromus catharticus 
+- model: farming.CropSpecies
+  pk: 10
+  fields:
+    default_yield_per_hectare: 10000
+    name_singular:
+      en: Alaska brome-grass
+    name_plural:
+      en: Alaska brome-grass
+    name_latin: Bromus sitchensis
+- model: farming.CropSpecies
+  pk: 11
+  fields:
+    default_yield_per_hectare: 10000
+    name_singular:
+      en: Bermuda grass
+    name_plural:
+      en: Bermuda grass
+    name_latin: Cynodon dactylon 
+- model: farming.CropSpecies
+  pk: 12
+  fields:
+    default_yield_per_hectare: 7500
+    name_singular:
+      en: Cocksfoot
+    name_plural:
+      en: Cocksfoot
+    name_latin: Dactylis glomerata 
+- model: farming.CropSpecies
+  pk: 13
+  fields:
+    default_yield_per_hectare: 7000
+    name_singular:
+      en: Tall fescue
+    name_plural:
+      en: Tall fescue
+    name_latin: Festuca arundinacea 
+- model: farming.CropSpecies
+  pk: 14
+  fields:
+    default_yield_per_hectare: 6000
+    name_singular:
+      en: Fine leaved sheep's
+    name_plural:
+      en: Fine leaved sheep's
+    name_latin: Festuca filiformis 
+- model: farming.CropSpecies
+  pk: 15
+  fields:
+    default_yield_per_hectare: 6000
+    name_singular:
+      en: Sheep's fescue
+    name_plural:
+      en: Sheep's fescue
+    name_latin: Festuca ovina L.
+- model: farming.CropSpecies
+  pk: 16
+  fields:
+    default_yield_per_hectare: 6000
+    name_singular:
+      en: Meadow fescue
+    name_plural:
+      en: Meadow fescue
+    name_latin: Festuca pratensis 
+- model: farming.CropSpecies
+  pk: 17
+  fields:
+    default_yield_per_hectare: 6000
+    name_singular:
+      en: Red fescue
+    name_plural:
+      en: Red fescue
+    name_latin: Festuca rubra L.
+- model: farming.CropSpecies
+  pk: 18
+  fields:
+    default_yield_per_hectare: 6000
+    name_singular:
+      en: Hard fescue
+    name_plural:
+      en: Hard fescue
+    name_latin: Festuca trachyphylla 
+- model: farming.CropSpecies
+  pk: 19
+  fields:
+    default_yield_per_hectare: 6000
+    name_singular:
+      en: Hybrids resulting
+    name_plural:
+      en: Hybrids resulting
+    name_latin: Festulolium Asch. 
+- model: farming.CropSpecies
+  pk: 20
+  fields:
+    default_yield_per_hectare: 15000
+    name_singular:
+      en: Ssp. alternativum
+    name_plural:
+      en: Ssp. alternativum
+    name_latin: Ssp. alternativum
+- model: farming.CropSpecies
+  pk: 21
+  fields:
+    default_yield_per_hectare: 15000
+    name_singular:
+      en: Ssp. non alternativum
+    name_plural:
+      en: Ssp. non alternativum
+    name_latin: Ssp. non alternativum
+- model: farming.CropSpecies
+  pk: 22
+  fields:
+    default_yield_per_hectare: 13000
+    name_singular:
+      en: Perennial ryegrass
+    name_plural:
+      en: Perennial ryegrass
+    name_latin: Lolium perenne L.
+- model: farming.CropSpecies
+  pk: 23
+  fields:
+    default_yield_per_hectare: 13000
+    name_singular:
+      en: Hybrid ryegrass
+    name_plural:
+      en: Hybrid ryegrass
+    name_latin: Lolium x hybridum 
+- model: farming.CropSpecies
+  pk: 24
+  fields:
+    default_yield_per_hectare: 5000
+    name_singular:
+      en: Harding grass/Phalaris
+    name_plural:
+      en: Harding grass/Phalaris
+    name_latin: Phalaris aquatica 
+- model: farming.CropSpecies
+  pk: 25
+  fields:
+    default_yield_per_hectare: 1500
+    name_singular:
+      en: Small timothy
+    name_plural:
+      en: Small timothy
+    name_latin: Phleum nodosum L.
+- model: farming.CropSpecies
+  pk: 26
+  fields:
+    default_yield_per_hectare: 2000
+    name_singular:
+      en: Timothy
+    name_plural:
+      en: Timothy
+    name_latin: Phleum pratense 
+- model: farming.CropSpecies
+  pk: 27
+  fields:
+    default_yield_per_hectare: 1000
+    name_singular:
+      en: Annual meadowgrass
+    name_plural:
+      en: Annual meadowgrass
+    name_latin: Poa annua L.
+- model: farming.CropSpecies
+  pk: 28
+  fields:
+    default_yield_per_hectare: 1000
+    name_singular:
+      en: Wood meadowgrass
+    name_plural:
+      en: Wood meadowgrass
+    name_latin: Poa nemoralis L.
+- model: farming.CropSpecies
+  pk: 29
+  fields:
+    default_yield_per_hectare: 1000
+    name_singular:
+      en: Swamp meadowgrass
+    name_plural:
+      en: Swamp meadowgrass
+    name_latin: Poa palustris L.
+- model: farming.CropSpecies
+  pk: 30
+  fields:
+    default_yield_per_hectare: 1000
+    name_singular:
+      en: Smooth
+    name_plural:
+      en: Smooth
+    name_latin: stalked meadowgrass
+- model: farming.CropSpecies
+  pk: 31
+  fields:
+    default_yield_per_hectare: 1000
+    name_singular:
+      en: Rough
+    name_plural:
+      en: Rough
+    name_latin: stalked meadowgrass
+- model: farming.CropSpecies
+  pk: 32
+  fields:
+    default_yield_per_hectare: 1000
+    name_singular:
+      en: Golden oatgrass
+    name_plural:
+      en: Golden oatgrass
+    name_latin: Trisetum flavescens 
+- model: farming.CropSpecies
+  pk: 33
+  fields:
+    default_yield_per_hectare: 2000
+    name_singular:
+      en: Biserrula
+    name_plural:
+      en: Biserrula
+    name_latin: Biserrula pelecinus 
+- model: farming.CropSpecies
+  pk: 34
+  fields:
+    default_yield_per_hectare: 10000
+    name_singular:
+      en: Fodder galega
+    name_plural:
+      en: Fodder galega
+    name_latin: Galega orientalis 
+- model: farming.CropSpecies
+  pk: 35
+  fields:
+    default_yield_per_hectare: 10000
+    name_singular:
+      en: Sulla
+    name_plural:
+      en: Sulla
+    name_latin: Hedysarum coronarium 
+- model: farming.CropSpecies
+  pk: 36
+  fields:
+    default_yield_per_hectare: 8000
+    name_singular:
+      en: Chickling vetch/Dwarf
+    name_plural:
+      en: Chickling vetch/Dwarf
+    name_latin: Lathyrus cicera 
+- model: farming.CropSpecies
+  pk: 37
+  fields:
+    default_yield_per_hectare: 5000
+    name_singular:
+      en: Birdsfoot trefoil
+    name_plural:
+      en: Birdsfoot trefoil
+    name_latin: Lotus corniculatus 
+- model: farming.CropSpecies
+  pk: 38
+  fields:
+    default_yield_per_hectare: 3000
+    name_singular:
+      en: White lupin
+    name_plural:
+      en: White lupin
+    name_latin: Lupinus albus L.
+- model: farming.CropSpecies
+  pk: 39
+  fields:
+    default_yield_per_hectare: 3000
+    name_singular:
+      en: Narrow leaved lupin
+    name_plural:
+      en: Narrow leaved lupin
+    name_latin: Lupinus angustifolius 
+- model: farming.CropSpecies
+  pk: 40
+  fields:
+    default_yield_per_hectare: 3000
+    name_singular:
+      en: Yellow lupin
+    name_plural:
+      en: Yellow lupin
+    name_latin: Lupinus luteus L.
+- model: farming.CropSpecies
+  pk: 41
+  fields:
+    default_yield_per_hectare: 1000
+    name_singular:
+      en: Straight-spined
+    name_plural:
+      en: Straight-spined
+    name_latin: Medicago doliata
+- model: farming.CropSpecies
+  pk: 42
+  fields:
+    default_yield_per_hectare: 1000
+    name_singular:
+      en: Disc medic
+    name_plural:
+      en: Disc medic
+    name_latin: Medicago italica 
+- model: farming.CropSpecies
+  pk: 43
+  fields:
+    default_yield_per_hectare: 1000
+    name_singular:
+      en: Shore medic/Strand
+    name_plural:
+      en: Shore medic/Strand
+    name_latin: Medicago littoralis 
+- model: farming.CropSpecies
+  pk: 44
+  fields:
+    default_yield_per_hectare: 1000
+    name_singular:
+      en: Trefoil
+    name_plural:
+      en: Trefoil
+    name_latin: Medicago lupulina 
+- model: farming.CropSpecies
+  pk: 45
+  fields:
+    default_yield_per_hectare: 1000
+    name_singular:
+      en: Sphere medic
+    name_plural:
+      en: Sphere medic
+    name_latin: Medicago murex Willd.
+- model: farming.CropSpecies
+  pk: 46
+  fields:
+    default_yield_per_hectare: 1000
+    name_singular:
+      en: Bur medic
+    name_plural:
+      en: Bur medic
+    name_latin: Medicago polymorpha 
+- model: farming.CropSpecies
+  pk: 47
+  fields:
+    default_yield_per_hectare: 1000
+    name_singular:
+      en: Wrinkled medic/Gama
+    name_plural:
+      en: Wrinkled medic/Gama
+    name_latin: Medicago rugosa 
+- model: farming.CropSpecies
+  pk: 48
+  fields:
+    default_yield_per_hectare: 5000
+    name_singular:
+      en: Lucerne
+    name_plural:
+      en: Lucerne
+    name_latin: Medicago sativa 
+- model: farming.CropSpecies
+  pk: 49
+  fields:
+    default_yield_per_hectare: 1000
+    name_singular:
+      en: Snail medic/Shield
+    name_plural:
+      en: Snail medic/Shield
+    name_latin: Medicago scutellata 
+- model: farming.CropSpecies
+  pk: 50
+  fields:
+    default_yield_per_hectare: 1000
+    name_singular:
+      en: Barrel medic
+    name_plural:
+      en: Barrel medic
+    name_latin: Medicago truncatula 
+- model: farming.CropSpecies
+  pk: 51
+  fields:
+    default_yield_per_hectare: 5000
+    name_singular:
+      en: Sand lucerne
+    name_plural:
+      en: Sand lucerne
+    name_latin: Medicago &times; varia 
+- model: farming.CropSpecies
+  pk: 52
+  fields:
+    default_yield_per_hectare: 30000
+    name_singular:
+      en: Sainfoin
+    name_plural:
+      en: Sainfoin
+    name_latin: Onobrychis viciifolia 
+- model: farming.CropSpecies
+  pk: 53
+  fields:
+    default_yield_per_hectare: 8000
+    name_singular:
+      en: Yellow serradella
+    name_plural:
+      en: Yellow serradella
+    name_latin: Ornithopus compressus 
+- model: farming.CropSpecies
+  pk: 54
+  fields:
+    default_yield_per_hectare: 8000
+    name_singular:
+      en: Serradella
+    name_plural:
+      en: Serradella
+    name_latin: Ornithopus sativus 
+- model: farming.CropSpecies
+  pk: 55
+  fields:
+    default_yield_per_hectare: 3000
+    name_singular:
+      en: Field pea
+    name_plural:
+      en: Field pea
+    name_latin: Pisum sativum L. 
+- model: farming.CropSpecies
+  pk: 56
+  fields:
+    default_yield_per_hectare: 10000
+    name_singular:
+      en: Berseem/Egyptian
+    name_plural:
+      en: Berseem/Egyptian
+    name_latin: Trifolium alexandrinum 
+- model: farming.CropSpecies
+  pk: 57
+  fields:
+    default_yield_per_hectare: 10000
+    name_singular:
+      en: Strawberry clover
+    name_plural:
+      en: Strawberry clover
+    name_latin: Trifolium fragiferum 
+- model: farming.CropSpecies
+  pk: 58
+  fields:
+    default_yield_per_hectare: 10000
+    name_singular:
+      en: Glandular clover
+    name_plural:
+      en: Glandular clover
+    name_latin: Trifolium glanduliferum 
+- model: farming.CropSpecies
+  pk: 59
+  fields:
+    default_yield_per_hectare: 10000
+    name_singular:
+      en: Rose clover
+    name_plural:
+      en: Rose clover
+    name_latin: Trifolium hirtum 
+- model: farming.CropSpecies
+  pk: 60
+  fields:
+    default_yield_per_hectare: 10000
+    name_singular:
+      en: Alsike clover
+    name_plural:
+      en: Alsike clover
+    name_latin: Trifolium hybridum 
+- model: farming.CropSpecies
+  pk: 61
+  fields:
+    default_yield_per_hectare: 10000
+    name_singular:
+      en: Crimson clover
+    name_plural:
+      en: Crimson clover
+    name_latin: Trifolium incarnatum 
+- model: farming.CropSpecies
+  pk: 62
+  fields:
+    default_yield_per_hectare: 10000
+    name_singular:
+      en: Moroccan clover
+    name_plural:
+      en: Moroccan clover
+    name_latin: Trifolium isthmocarpum 
+- model: farming.CropSpecies
+  pk: 63
+  fields:
+    default_yield_per_hectare: 10000
+    name_singular:
+      en: Balansa clover
+    name_plural:
+      en: Balansa clover
+    name_latin: Trifolium michelianum 
+- model: farming.CropSpecies
+  pk: 64
+  fields:
+    default_yield_per_hectare: 10000
+    name_singular:
+      en: Red clover
+    name_plural:
+      en: Red clover
+    name_latin: Trifolium pratense 
+- model: farming.CropSpecies
+  pk: 65
+  fields:
+    default_yield_per_hectare: 10000
+    name_singular:
+      en: White clover
+    name_plural:
+      en: White clover
+    name_latin: Trifolium repens 
+- model: farming.CropSpecies
+  pk: 66
+  fields:
+    default_yield_per_hectare: 10000
+    name_singular:
+      en: Persian clover
+    name_plural:
+      en: Persian clover
+    name_latin: Trifolium resupinatum 
+- model: farming.CropSpecies
+  pk: 67
+  fields:
+    default_yield_per_hectare: 10000
+    name_singular:
+      en: Squarrose clover
+    name_plural:
+      en: Squarrose clover
+    name_latin: Trifolium squarrosum 
+- model: farming.CropSpecies
+  pk: 68
+  fields:
+    default_yield_per_hectare: 10000
+    name_singular:
+      en: Subterranean clover
+    name_plural:
+      en: Subterranean clover
+    name_latin: Trifolium subterraneum 
+- model: farming.CropSpecies
+  pk: 69
+  fields:
+    default_yield_per_hectare: 10000
+    name_singular:
+      en: Arrow-leaf clover
+    name_plural:
+      en: Arrow-leaf clover
+    name_latin: Trifolium vesiculosum
+- model: farming.CropSpecies
+  pk: 70
+  fields:
+    default_yield_per_hectare: 1300
+    name_singular:
+      en: Fenugreek
+    name_plural:
+      en: Fenugreek
+    name_latin: Trigonella foenum
+- model: farming.CropSpecies
+  pk: 71
+  fields:
+    default_yield_per_hectare: 3000
+    name_singular:
+      en: Purple vetch
+    name_plural:
+      en: Purple vetch
+    name_latin: Vicia benghalensis 
+- model: farming.CropSpecies
+  pk: 72
+  fields:
+    default_yield_per_hectare: 8000
+    name_singular:
+      en: Field bean
+    name_plural:
+      en: Field bean
+    name_latin: Vicia faba L. (partim)
+- model: farming.CropSpecies
+  pk: 73
+  fields:
+    default_yield_per_hectare: 3000
+    name_singular:
+      en: Hungarian vetch
+    name_plural:
+      en: Hungarian vetch
+    name_latin: Vicia pannonica 
+- model: farming.CropSpecies
+  pk: 74
+  fields:
+    default_yield_per_hectare: 3000
+    name_singular:
+      en: Common vetch
+    name_plural:
+      en: Common vetch
+    name_latin: Vicia sativa L.
+- model: farming.CropSpecies
+  pk: 75
+  fields:
+    default_yield_per_hectare: 3000
+    name_singular:
+      en: Hairy vetch
+    name_plural:
+      en: Hairy vetch
+    name_latin: Vicia villosa Roth.
+- model: farming.CropSpecies
+  pk: 76
+  fields:
+    default_yield_per_hectare: 8000
+    name_singular:
+      en: Swede
+    name_plural:
+      en: Swede
+    name_latin: Brassica napus L. 
+- model: farming.CropSpecies
+  pk: 77
+  fields:
+    default_yield_per_hectare: 10000
+    name_singular:
+      en: Fodder kale
+    name_plural:
+      en: Fodder kale
+    name_latin: Brassica oleracea 
+- model: farming.CropSpecies
+  pk: 78
+  fields:
+    default_yield_per_hectare: 1800
+    name_singular:
+      en: California bluebell
+    name_plural:
+      en: California bluebell
+    name_latin: Phacelia tanacetifolia 
+- model: farming.CropSpecies
+  pk: 79
+  fields:
+    default_yield_per_hectare: 11000
+    name_singular:
+      en: Ribwort plantain
+    name_plural:
+      en: Ribwort plantain
+    name_latin: Plantago lanceolata 
+- model: farming.CropSpecies
+  pk: 80
+  fields:
+    default_yield_per_hectare: 13000
+    name_singular:
+      en: Fodder radish
+    name_plural:
+      en: Fodder radish
+    name_latin: Raphanus sativus 
+- model: farming.CropSpecies
+  pk: 81
+  fields:
+    default_yield_per_hectare: 1200
+    name_singular:
+      en: Groundnut/Peanut
+    name_plural:
+      en: Groundnut/Peanut
+    name_latin: Arachis hypogea 
+- model: farming.CropSpecies
+  pk: 82
+  fields:
+    default_yield_per_hectare: 2500
+    name_singular:
+      en: Turnip rape
+    name_plural:
+      en: Turnip rape
+    name_latin: Brassica rapa L. 
+- model: farming.CropSpecies
+  pk: 83
+  fields:
+    default_yield_per_hectare: 2500
+    name_singular:
+      en: Brown mustard
+    name_plural:
+      en: Brown mustard
+    name_latin: Brassica juncea 
+- model: farming.CropSpecies
+  pk: 84
+  fields:
+    default_yield_per_hectare: 8000
+    name_singular:
+      en: Swede rape
+    name_plural:
+      en: Swede rape
+    name_latin: Brassica napus L. 
+- model: farming.CropSpecies
+  pk: 85
+  fields:
+    default_yield_per_hectare: 2500
+    name_singular:
+      en: Black mustard
+    name_plural:
+      en: Black mustard
+    name_latin: Brassica nigra (L.) 
+- model: farming.CropSpecies
+  pk: 86
+  fields:
+    default_yield_per_hectare: 2500
+    name_singular:
+      en: Hemp
+    name_plural:
+      en: Hemp
+    name_latin: Cannabis sativa 
+- model: farming.CropSpecies
+  pk: 87
+  fields:
+    default_yield_per_hectare: 1000
+    name_singular:
+      en: Safflower
+    name_plural:
+      en: Safflower
+    name_latin: Carthamus tinctorius 
+- model: farming.CropSpecies
+  pk: 88
+  fields:
+    default_yield_per_hectare: 1000
+    name_singular:
+      en: Caraway
+    name_plural:
+      en: Caraway
+    name_latin: Carum carvi L.
+- model: farming.CropSpecies
+  pk: 89
+  fields:
+    default_yield_per_hectare: 3000
+    name_singular:
+      en: Cotton
+    name_plural:
+      en: Cotton
+    name_latin: Gossypium spp.
+- model: farming.CropSpecies
+  pk: 90
+  fields:
+    default_yield_per_hectare: 2000
+    name_singular:
+      en: Sunflower
+    name_plural:
+      en: Sunflower
+    name_latin: Helianthus annuus 
+- model: farming.CropSpecies
+  pk: 91
+  fields:
+    default_yield_per_hectare: 6000
+    name_singular:
+      en: Flax, Linseed
+    name_plural:
+      en: Flax, Linseed
+    name_latin: Linum usitatissimum 
+- model: farming.CropSpecies
+  pk: 92
+  fields:
+    default_yield_per_hectare: 1200
+    name_singular:
+      en: Poppy
+    name_plural:
+      en: Poppy
+    name_latin: Papaver somniferum 
+- model: farming.CropSpecies
+  pk: 93
+  fields:
+    default_yield_per_hectare: 2500
+    name_singular:
+      en: White mustard
+    name_plural:
+      en: White mustard
+    name_latin: Sinapis alba L.
+- model: farming.CropSpecies
+  pk: 94
+  fields:
+    default_yield_per_hectare: 2500
+    name_singular:
+      en: Soya bean
+    name_plural:
+      en: Soya bean
+    name_latin: Glycine max (L.) 
+- model: farming.CropSpecies
+  pk: 95
+  fields:
+    default_yield_per_hectare: 4500
+    name_singular:
+      en: Small naked oat
+    name_plural:
+      en: Small naked oat
+    name_latin: Avena nuda L.
+- model: farming.CropSpecies
+  pk: 96
+  fields:
+    default_yield_per_hectare: 4500
+    name_singular:
+      en: Oat and Red oat
+    name_plural:
+      en: Oat and Red oat
+    name_latin: Avena sativa L. 
+- model: farming.CropSpecies
+  pk: 97
+  fields:
+    default_yield_per_hectare: 4500
+    name_singular:
+      en: Black oat / Bristle
+    name_plural:
+      en: Black oat / Bristle
+    name_latin: Avena strigosa Schreb.
+- model: farming.CropSpecies
+  pk: 98
+  fields:
+    default_yield_per_hectare: 6500
+    name_singular:
+      en: 2-row barley
+    name_plural:
+      en: 2-row barley
+    name_latin: 
+- model: farming.CropSpecies
+  pk: 99
+  fields:
+    default_yield_per_hectare: 6500
+    name_singular:
+      en: 6-row barley
+    name_plural:
+      en: 6-row barley
+    name_latin: 
+- model: farming.CropSpecies
+  pk: 100
+  fields:
+    default_yield_per_hectare: 4000
+    name_singular:
+      en: Rice
+    name_plural:
+      en: Rice
+    name_latin: Oryza sativa L.
+- model: farming.CropSpecies
+  pk: 101
+  fields:
+    default_yield_per_hectare: 1000
+    name_singular:
+      en: Canary grass
+    name_plural:
+      en: Canary grass
+    name_latin: Phalaris canariensis 
+- model: farming.CropSpecies
+  pk: 102
+  fields:
+    default_yield_per_hectare: 6000
+    name_singular:
+      en: Rye
+    name_plural:
+      en: Rye
+    name_latin: Secale cereale L.
+- model: farming.CropSpecies
+  pk: 103
+  fields:
+    default_yield_per_hectare: 1000
+    name_singular:
+      en: Sorghum
+    name_plural:
+      en: Sorghum
+    name_latin: Sorghum bicolor 
+- model: farming.CropSpecies
+  pk: 104
+  fields:
+    default_yield_per_hectare: 1000
+    name_singular:
+      en: Sudan grass
+    name_plural:
+      en: Sudan grass
+    name_latin: Sorghum sudanense 
+- model: farming.CropSpecies
+  pk: 105
+  fields:
+    default_yield_per_hectare: 1000
+    name_singular:
+      en: Hybrids resulting
+    name_plural:
+      en: Hybrids resulting
+    name_latin: Sorghum bicolor 
+- model: farming.CropSpecies
+  pk: 106
+  fields:
+    default_yield_per_hectare: 5000
+    name_singular:
+      en: Hybrids resulting
+    name_plural:
+      en: Hybrids resulting
+    name_latin: Triticosecale Wittm. 
+- model: farming.CropSpecies
+  pk: 107
+  fields:
+    default_yield_per_hectare: 5000
+    name_singular:
+      en: Wheat
+    name_plural:
+      en: Wheat
+    name_latin: Triticum aestivum 
+- model: farming.CropSpecies
+  pk: 108
+  fields:
+    default_yield_per_hectare: 5000
+    name_singular:
+      en: Durum wheat
+    name_plural:
+      en: Durum wheat
+    name_latin: Triticum durum Desf.
+- model: farming.CropSpecies
+  pk: 109
+  fields:
+    default_yield_per_hectare: 5000
+    name_singular:
+      en: Spelt wheat
+    name_plural:
+      en: Spelt wheat
+    name_latin: Triticum spelta
+- model: farming.CropSpecies
+  pk: 110
+  fields:
+    default_yield_per_hectare: 4000
+    name_singular:
+      en: Maize
+    name_plural:
+      en: Maize
+    name_latin: Zea mays L. (partim)
+- model: farming.CropSpecies
+  pk: 111
+  fields:
+    default_yield_per_hectare: 20000
+    name_singular:
+      en: Potato
+    name_plural:
+      en: Potato
+    name_latin: Solanum tuberosum

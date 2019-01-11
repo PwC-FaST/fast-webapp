@@ -1,0 +1,19 @@
+fragment fragmentMessagingNewMessagesInThreadFeedItem on MessagingNewMessagesInThreadFeedItemType {
+  id
+  __typename
+  timestamp
+  timegroup
+  component
+  thread {
+    id
+    subject
+    messages {
+      id
+      createdBy {
+        id
+        fullName
+      }
+    }
+  }
+  numberOfNewMessages
+}

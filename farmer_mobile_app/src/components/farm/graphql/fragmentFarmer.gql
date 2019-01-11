@@ -1,0 +1,8 @@
+#import "../../core/graphql/fragmentUser.gql"
+
+fragment fragmentFarmer on FarmerType {
+  id
+  user {
+    ...fragmentUser
+  }
+}

@@ -1,0 +1,9 @@
+#import "../../core/graphql/fragmentUser.gql"
+
+fragment fragmentContact on ContactType {
+  id
+  user {
+    ...fragmentUser
+  }
+  isInMyContacts
+}

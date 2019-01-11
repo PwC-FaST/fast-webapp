@@ -1,0 +1,9 @@
+#import "./fragmentFarmLivestock.gql"
+
+query farm {
+  farm {
+    farmLivestock {
+      ...fragmentFarmLivestock
+    }
+  }
+}

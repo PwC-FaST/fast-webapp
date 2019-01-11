@@ -1,0 +1,9 @@
+#import "./fragmentFarmParcelCropNeeds.gql"
+
+mutation UpdateFarmParcelCropNeeds($farmParcelCropNeedsId: ID!, $targetYield: Float, $isActive: Boolean, $priorityOrder: Float) {
+  updateFarmParcelCropNeeds(farmParcelCropNeedsId: $farmParcelCropNeedsId, targetYield: $targetYield, isActive: $isActive, priorityOrder: $priorityOrder) {
+    farmParcelCropNeeds {
+      ...fragmentFarmParcelCropNeeds
+    }
+  }
+}

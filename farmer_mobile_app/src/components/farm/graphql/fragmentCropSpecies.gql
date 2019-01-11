@@ -1,0 +1,6 @@
+fragment fragmentCropSpecies on CropSpeciesType {
+  id
+  nameSingular
+  namePlural
+  nameLatin
+}

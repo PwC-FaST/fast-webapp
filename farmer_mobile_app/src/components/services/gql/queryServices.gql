@@ -1,0 +1,7 @@
+#import "./fragmentService.gql"
+
+query services {
+  services {
+    ...fragmentService
+  }
+}

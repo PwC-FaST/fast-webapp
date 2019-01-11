@@ -1,0 +1,9 @@
+#import "./fragmentProducedLivestockManure.gql"
+
+mutation DeleteProducedLivestockManure($producedLivestockManureId: ID!) {
+  deleteProducedLivestockManure(producedLivestockManureId: $producedLivestockManureId) {
+    producedLivestockManure {
+      ...fragmentProducedLivestockManure
+    }
+  }
+}

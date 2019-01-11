@@ -1,0 +1,3 @@
+fragment tokenAuth on ObtainJSONWebToken {
+    token
+}

@@ -1,0 +1,7 @@
+#import "./fragmentPlan.gql"
+
+query plans {
+  plans {
+    ...fragmentPlan
+  }
+}

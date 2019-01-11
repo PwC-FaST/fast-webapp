@@ -1,0 +1,6 @@
+fragment fragmentFarmParcelNutrientPlanResult on FarmParcelNutrientPlanResultType {
+  id
+  manureQuantity
+  chemicalType
+  chemicalQuantity
+}

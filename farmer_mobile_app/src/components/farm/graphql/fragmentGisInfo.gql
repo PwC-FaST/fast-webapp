@@ -1,0 +1,10 @@
+#import "./fragmentCentroid.gql"
+
+fragment fragmentGisInfo on GISInfoType {
+  id
+  area
+  perimeter
+  centroid {
+    ...fragmentCentroid
+  }
+}

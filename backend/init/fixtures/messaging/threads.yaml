@@ -1,0 +1,149 @@
+# Thread 1
+
+- model: messaging.Thread
+  pk: 1
+  fields:
+    created_by: 4
+    created_at: 2018-12-01T13:00:00+01:00
+    members: [1, 2, 3, 4]
+    subject: A first thread
+- model: messaging.Message
+  pk: 1
+  fields:
+    thread: 1
+    created_by: 4
+    created_at: 2018-12-01T12:00:00+01:00
+    content: Hello
+    attachment:
+- model: messaging.Message
+  pk: 2
+  fields:
+    thread: 1
+    created_by: 1
+    created_at: 2018-12-01T13:00:00+01:00
+    content: Hi
+    attachment:
+- model: messaging.Message
+  pk: 3
+  fields:
+    thread: 1
+    created_by: 2
+    created_at: 2018-12-01T13:00:00+01:00
+    content: Hello
+    attachment:
+- model: messaging.Message
+  pk: 4
+  fields:
+    thread: 1
+    created_by: 1
+    created_at: 2018-12-01T13:00:00+01:00
+    content: How are things?
+    attachment:
+- model: messaging.Message
+  pk: 5
+  fields:
+    thread: 1
+    created_by: 4
+    created_at: 2018-12-01T13:00:00+01:00
+    content: Good
+    attachment:
+
+# Thread 2
+
+- model: messaging.Thread
+  pk: 2
+  fields:
+    created_by: 5
+    created_at: 2018-12-01T13:00:00+01:00
+    members: [4, 5]
+    subject: A second thread
+- model: messaging.Message
+  pk: 6
+  fields:
+    thread: 2
+    created_by: 5
+    created_at: 2018-12-01T12:00:00+01:00
+    content: Hello
+    attachment:
+- model: messaging.Message
+  pk: 7
+  fields:
+    thread: 2
+    created_by: 4
+    created_at: 2018-12-01T13:00:00+01:00
+    content: Hi
+    attachment:
+- model: messaging.Message
+  pk: 8
+  fields:
+    thread: 2
+    created_by: 5
+    created_at: 2018-12-01T13:00:00+01:00
+    content: Hello
+    attachment:
+- model: messaging.Message
+  pk: 9
+  fields:
+    thread: 2
+    created_by: 5
+    created_at: 2018-12-01T13:00:00+01:00
+    content: How are things?
+    attachment:
+- model: messaging.Message
+  pk: 10
+  fields:
+    thread: 2
+    created_by: 4
+    created_at: 2018-12-01T13:00:00+01:00
+    content: Good
+    attachment:
+
+# Thread 3
+
+- model: messaging.Thread
+  pk: 3
+  fields:
+    created_by: 4
+    created_at: 2018-12-01T13:00:00+01:00
+    members: [1, 2, 3]
+    subject: A thread where the creator is not member anymore
+- model: messaging.Message
+  pk: 11
+  fields:
+    thread: 3
+    created_by: 1
+    created_at: 2018-12-01T12:00:00+01:00
+    content: Hello
+    attachment:
+- model: messaging.Message
+  pk: 12
+  fields:
+    thread: 3
+    created_by: 2
+    created_at: 2018-12-01T13:00:00+01:00
+    content: Hi
+    attachment:
+- model: messaging.Message
+  pk: 13
+  fields:
+    thread: 3
+    created_by: 3
+    created_at: 2018-12-01T13:00:00+01:00
+    content: Hello
+    attachment:
+- model: messaging.Message
+  pk: 14
+  fields:
+    thread: 3
+    created_by: 2
+    created_at: 2018-12-01T13:00:00+01:00
+    content: How are things?
+    attachment:
+- model: messaging.Message
+  pk: 15
+  fields:
+    thread: 3
+    created_by: 1
+    created_at: 2018-12-01T13:00:00+01:00
+    content: Good
+    attachment:

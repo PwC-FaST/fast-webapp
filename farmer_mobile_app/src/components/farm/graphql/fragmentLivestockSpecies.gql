@@ -1,0 +1,12 @@
+fragment fragmentLivestockSpecies on LivestockSpeciesType {
+  id
+  icon
+  nameSingular
+  namePlural
+  rootLivestockSpecies {
+    id
+    icon
+    nameSingular
+    namePlural
+  }
+}

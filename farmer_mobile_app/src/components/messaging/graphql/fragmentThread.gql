@@ -1,0 +1,14 @@
+#import "./fragmentMessage.gql"
+#import "../../core/graphql/fragmentUser.gql"
+
+fragment fragmentThread on ThreadType {
+  id
+  subject
+  createdBy {
+    ...fragmentUser
+  }
+  createdAt
+  messages {
+    ...fragmentMessage
+  }
+}

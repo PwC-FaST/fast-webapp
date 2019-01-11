@@ -1,0 +1,171 @@
+- model: additional_services.Service
+  pk: 1
+  fields:
+    display_name:
+      en: Direct Payments Application
+      fr: Droit au Paiement de Base
+    short_description:
+      en: Complete, review and submit your payment applications. View your submissions and payment history.
+    provider: 1
+    subscription_type: FREE
+- model: additional_services.Service
+  pk: 2
+  fields:
+    display_name:
+      en: Satellite imagery
+      fr: Images satellites
+    short_description:
+      en: Receive daily agronomic imagery of your farm from the Sentinel constellation.
+    provider: 2
+    subscription_type: FREE
+- model: additional_services.Service
+  pk: 3
+  fields:
+    display_name:
+      en: Climate Smart Agriculture
+      fr: Agriculture Intelligente face au Climat
+    short_description:
+      en: Develop strategies to sustainably secure your productivity and reduce your impact under changing climate conditions.
+    provider: 7
+    subscription_type: FREE
+- model: additional_services.Service
+  pk: 4
+  fields:
+    display_name:
+      en: Teagasc NMP-Online
+    short_description:
+      en: Connect your FaST profile to your NMP-Online account.
+    provider: 4
+    subscription_type: FREE
+- model: additional_services.Service
+  pk: 5
+  fields:
+    display_name:
+      en: Agrisat
+      es: Agrisat
+    short_description:
+      en: Temporal sequences of satellite images for agricultural management, using Fatima H2020 products.
+    provider: 5
+    subscription_type: YEAR
+- model: additional_services.Service
+  pk: 6
+  fields:
+    display_name:
+      en: Geisenheimer Irrigation Scheduling
+    short_description:
+      en: Online decision support system for an efficient irrigation scheduling of open field vegetable production.
+    provider: 6
+    subscription_type: FREE
+- model: additional_services.Service
+  pk: 6
+  fields:
+    display_name:
+      en: Airbus Field Maps
+    short_description:
+      en: Industry-leading maps characterizing vegetation using satellite and UAV imagery.
+    provider: 8
+    subscription_type: MONTH
+- model: additional_services.Service
+  pk: 6
+  fields:
+    display_name:
+      en: Manure marketplace
+    short_description:
+      en: Your go-to marketplace for trading manure within your community.
+    provider: 2
+    subscription_type: FREE
+- model: additional_services.Service
+  pk: 7
+  fields:
+    display_name:
+      en: Sentinel-2 Imagery
+    short_description:
+      en: The latest cloud-free Sentinel-2 image of your farm
+    provider: 9
+    subscription_type: FREE
+
+
+- model: additional_services.UserServiceSubscription
+  pk: 2
+  fields:
+    user: 1
+    service: 2
+    subscribed_at: 2018-12-01T13:00:00+01:00
+- model: additional_services.UserServiceSubscription
+  pk: 3
+  fields:
+    user: 2
+    service: 1
+    subscribed_at: 2018-12-01T13:00:00+01:00
+- model: additional_services.UserServiceSubscription
+  pk: 4
+  fields:
+    user: 2
+    service: 2
+    subscribed_at: 2018-12-01T13:00:00+01:00
+- model: additional_services.UserServiceSubscription
+  pk: 5
+  fields:
+    user: 2
+    service: 3
+    subscribed_at: 2018-12-01T13:00:00+01:00
+- model: additional_services.UserServiceSubscription
+  pk: 6
+  fields:
+    user: 3
+    service: 2
+    subscribed_at: 2018-12-01T13:00:00+01:00
+- model: additional_services.UserServiceSubscription
+  pk: 7
+  fields:
+    user: 3
+    service: 1
+    subscribed_at: 2018-12-01T13:00:00+01:00
+- model: additional_services.UserServiceSubscription
+  pk: 9
+  fields:
+    user: 3
+    service: 6
+    subscribed_at: 2018-12-01T13:00:00+01:00
+- model: additional_services.UserServiceSubscription
+  pk: 10
+  fields:
+    user: 4
+    service: 1
+    subscribed_at: 2018-12-01T13:00:00+01:00
+- model: additional_services.UserServiceSubscription
+  pk: 11
+  fields:
+    user: 4
+    service: 2
+    subscribed_at: 2018-12-01T13:00:00+01:00
+- model: additional_services.UserServiceSubscription
+  pk: 12
+  fields:
+    user: 4
+    service: 5
+    subscribed_at: 2018-12-01T13:00:00+01:00
+- model: additional_services.UserServiceSubscription
+  pk: 13
+  fields:
+    user: 1
+    service: 7
+    subscribed_at: 2018-12-01T13:00:00+01:00
+- model: additional_services.UserServiceSubscription
+  pk: 14
+  fields:
+    user: 2
+    service: 7
+    subscribed_at: 2018-12-01T13:00:00+01:00
+- model: additional_services.UserServiceSubscription
+  pk: 15
+  fields:
+    user: 3
+    service: 7
+    subscribed_at: 2018-12-01T13:00:00+01:00
+- model: additional_services.UserServiceSubscription
+  pk: 16
+  fields:
+    user: 4
+    service: 7
+    subscribed_at: 2018-12-01T13:00:00+01:00

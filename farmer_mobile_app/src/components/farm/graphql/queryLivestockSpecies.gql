@@ -1,0 +1,10 @@
+#import "./fragmentLivestockSpecies.gql"
+
+query livestockSpecies {
+  livestockSpecies {
+    ...fragmentLivestockSpecies
+    children {
+      ...fragmentLivestockSpecies
+    }
+  }
+}

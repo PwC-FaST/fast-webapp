@@ -1,0 +1,269 @@
+- model: nmp.Plan
+  pk: 11
+  fields:
+    name: A first (active) test plan
+    farm: 1
+    is_active: true
+    created_at: 2018-12-01T13:00:00+01:00
+    created_by: 4
+    updated_at: 2018-12-01T13:00:00+01:00
+    updated_by: 4
+- model: nmp.Plan
+  pk: 12
+  fields:
+    name: Another plan from last year
+    farm: 1
+    is_active: false
+    created_at: 2018-12-01T13:00:00+01:00
+    created_by: 4
+    updated_at: 2018-12-01T13:00:00+01:00
+    updated_by: 4
+
+# Produced livestock manure
+
+- model: nmp.ProducedLivestockManure
+  pk: 111
+  fields:
+    plan: 11
+    livestock_species: 101
+    purity: 0.8
+    nitrogen_content: 0.0015
+    phosphorus_content: 0.0018
+    potassium_content: 0.0015
+    number_of_heads: 10
+    storage_days: 125
+    liters_per_head_per_day: 50
+- model: nmp.ProducedLivestockManure
+  pk: 112
+  fields:
+    plan: 11
+    livestock_species: 202
+    purity: 0.9
+    nitrogen_content: 0.0015
+    phosphorus_content: 0.0018
+    potassium_content: 0.0015
+    number_of_heads: 42
+    storage_days: 105
+    liters_per_head_per_day: 1.8
+- model: nmp.ProducedLivestockManure
+  pk: 113
+  fields:
+    plan: 11
+    livestock_species: 305
+    purity: 0.9
+    nitrogen_content: 0.0015
+    phosphorus_content: 0.0018
+    potassium_content: 0.0015
+    number_of_heads: 17
+    storage_days: 97
+    liters_per_head_per_day: 5
+
+# Imported or exported livestock manure
+
+- model: nmp.ImportedOrExportedLivestockManure
+  pk: 111
+  fields:
+    plan: 11
+    livestock_species: 100
+    purity: 0.8
+    nitrogen_content: 0.0015
+    phosphorus_content: 0.0018
+    potassium_content: 0.0015
+    total_quantity: 1500
+
+
+# Crop needs
+
+- model: nmp.FarmParcelCropNeeds
+  pk: 111
+  fields:
+    plan: 11
+    farm_parcel: 11
+    target_yield: 5000
+    is_active: true
+    estimated_nitrogen_needed: 120
+    estimated_phosphorus_needed: 14
+    estimated_potassium_needed: 15
+    priority_order: 1
+- model: nmp.FarmParcelCropNeeds
+  pk: 112
+  fields:
+    plan: 11
+    farm_parcel: 12
+    target_yield: 4000
+    is_active: true
+    estimated_nitrogen_needed: 120
+    estimated_phosphorus_needed: 14
+    estimated_potassium_needed: 15
+    priority_order: 2
+- model: nmp.FarmParcelCropNeeds
+  pk: 113
+  fields:
+    plan: 11
+    farm_parcel: 13
+    target_yield: 6000
+    is_active: true
+    estimated_nitrogen_needed: 120
+    estimated_phosphorus_needed: 14
+    estimated_potassium_needed: 15
+    priority_order: 3
+- model: nmp.FarmParcelCropNeeds
+  pk: 114
+  fields:
+    plan: 11
+    farm_parcel: 14
+    target_yield: 4500
+    is_active: false
+    estimated_nitrogen_needed: 120
+    estimated_phosphorus_needed: 14
+    estimated_potassium_needed: 15
+    priority_order: 4
+
+# Nutrient Plan Results
+
+- model: nmp.FarmParcelNutrientPlanResult
+  pk: 111
+  fields:
+    farm_parcel_crop_needs: 111
+    manure_quantity: 4000
+    chemical_quantity: 0
+    chemical_type:
+- model: nmp.FarmParcelNutrientPlanResult
+  pk: 112
+  fields:
+    farm_parcel_crop_needs: 112
+    manure_quantity: 1500
+    chemical_quantity: 0
+    chemical_type:
+- model: nmp.FarmParcelNutrientPlanResult
+  pk: 113
+  fields:
+    farm_parcel_crop_needs: 113
+    manure_quantity: 3000
+    chemical_quantity: 200
+    chemical_type: 12-4-8
+
+
+# Produced livestock manure
+
+- model: nmp.ProducedLivestockManure
+  pk: 121
+  fields:
+    plan: 12
+    livestock_species: 101
+    purity: 0.8
+    nitrogen_content: 0.0015
+    phosphorus_content: 0.0018
+    potassium_content: 0.0015
+    number_of_heads: 10
+    storage_days: 125
+    liters_per_head_per_day: 50
+- model: nmp.ProducedLivestockManure
+  pk: 122
+  fields:
+    plan: 12
+    livestock_species: 202
+    purity: 0.9
+    nitrogen_content: 0.0015
+    phosphorus_content: 0.0018
+    potassium_content: 0.0015
+    number_of_heads: 42
+    storage_days: 105
+    liters_per_head_per_day: 1.8
+- model: nmp.ProducedLivestockManure
+  pk: 123
+  fields:
+    plan: 12
+    livestock_species: 305
+    purity: 0.9
+    nitrogen_content: 0.0015
+    phosphorus_content: 0.0018
+    potassium_content: 0.0015
+    number_of_heads: 17
+    storage_days: 97
+    liters_per_head_per_day: 5
+
+# Imported or exported livestock manure
+
+- model: nmp.ImportedOrExportedLivestockManure
+  pk: 121
+  fields:
+    plan: 12
+    livestock_species: 100
+    purity: 0.8
+    nitrogen_content: 0.0015
+    phosphorus_content: 0.0018
+    potassium_content: 0.0015
+    total_quantity: 1500
+
+
+# Crop needs
+
+- model: nmp.FarmParcelCropNeeds
+  pk: 121
+  fields:
+    plan: 12
+    farm_parcel: 11
+    target_yield: 8000
+    is_active: true
+    estimated_nitrogen_needed: 120
+    estimated_phosphorus_needed: 14
+    estimated_potassium_needed: 15
+    priority_order: 1
+- model: nmp.FarmParcelCropNeeds
+  pk: 122
+  fields:
+    plan: 12
+    farm_parcel: 12
+    target_yield: 3000
+    is_active: true
+    estimated_nitrogen_needed: 120
+    estimated_phosphorus_needed: 14
+    estimated_potassium_needed: 15
+    priority_order: 2
+- model: nmp.FarmParcelCropNeeds
+  pk: 123
+  fields:
+    plan: 12
+    farm_parcel: 13
+    target_yield: 14000
+    is_active: true
+    estimated_nitrogen_needed: 120
+    estimated_phosphorus_needed: 14
+    estimated_potassium_needed: 15
+    priority_order: 3
+- model: nmp.FarmParcelCropNeeds
+  pk: 124
+  fields:
+    plan: 12
+    farm_parcel: 14
+    target_yield: 5500
+    is_active: false
+    estimated_nitrogen_needed: 120
+    estimated_phosphorus_needed: 14
+    estimated_potassium_needed: 15
+    priority_order: 4
+
+# Nutrient Plan Results
+
+- model: nmp.FarmParcelNutrientPlanResult
+  pk: 121
+  fields:
+    farm_parcel_crop_needs: 121
+    manure_quantity: 4000
+    chemical_quantity: 0
+    chemical_type:
+- model: nmp.FarmParcelNutrientPlanResult
+  pk: 122
+  fields:
+    farm_parcel_crop_needs: 122
+    manure_quantity: 1500
+    chemical_quantity: 200
+    chemical_type: 12-4-8
+- model: nmp.FarmParcelNutrientPlanResult
+  pk: 123
+  fields:
+    farm_parcel_crop_needs: 123
+    manure_quantity: 3000
+    chemical_quantity: 200
+    chemical_type: 12-4-8

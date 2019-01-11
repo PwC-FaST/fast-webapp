@@ -1,0 +1,15 @@
+#import "../../farm/graphql/fragmentLivestockSpecies.gql"
+
+fragment fragmentProducedLivestockManure on ProducedLivestockManureType {
+  id
+  livestockSpecies {
+    ...fragmentLivestockSpecies
+  }
+  purity
+  nitrogenContent
+  phosphorusContent
+  potassiumContent
+  numberOfHeads
+  storageDays
+  litersPerHeadPerDay
+}

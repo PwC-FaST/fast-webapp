@@ -1,0 +1,17 @@
+#import "./fragmentFarmParcelNutrientPlanResult.gql"
+
+fragment fragmentFarmParcelCropNeeds on FarmParcelCropNeedsType {
+  id
+  farmParcel {
+    id
+  }
+  targetYield
+  isActive
+  priorityOrder
+  estimatedNitrogenNeeded
+  estimatedPotassiumNeeded
+  estimatedPhosphorusNeeded
+  nutrientPlanResult {
+    ...fragmentFarmParcelNutrientPlanResult
+  }
+}

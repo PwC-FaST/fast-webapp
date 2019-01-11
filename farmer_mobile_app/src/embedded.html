@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>FaST</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content:"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover"
+    />
+  </head>
+  <body style="margin: 0; padding: 0;">
+    <div style="width: 100%; height: 100px; background-color: #C7CFDA;">
+      <img
+        src="/static/logo.png"
+        width="60"
+        height="60"
+        style="position: absolute; top: 20px; left: 20px;"
+      />
+      <img
+        src="/static/european-union.png"
+        width="20"
+        height="20"
+        style="position: absolute; top: 60px; left: 60px;"
+      />
+      <div
+        style="position: absolute; top: 0; left: 100px; color: #3B4A5E; height: 100px; line-height: 100px; font-family: Roboto, Noto, Helvetica, Arial, sans-serif; font-size: 24px;"
+      >
+        Farm Sustainability Tool
+      </div>
+    </div>
+    <div style="min-height: 1000px; width: 100%; text-align: center; background-color: #E6EAEE; padding: 50px 100px;">
+      <iframe
+        id="frameIos"
+        title="FaST iOS"
+        width="360"
+        height="640"
+        src="index.html?theme=ios&simulatetouch=1"
+        style="float: left; border: 1px solid lightgray">
+      </iframe>
+      <div style="float: left; margin-left: 100px; width: calc(100% - 360px - 300px); height: 640px; text-align: left; font-family: Roboto, Noto, Helvetica, Arial, sans-serif; font-size: 16px; color: #3B4A5E;">
+    <p>Prototype of the Farm Sustainability Tool for nutrients (FaST), in line with requirements of Article 12, and Annex III, of the <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2018%3A392%3AFIN">post-2020 Common Agricultural Policy Strategic Plans proposal</a>.</p>
+    
+    <a href="/static/poster/fast-poster.pdf" style="float: right; margin-top: 50px; margin-left: 50px;">
+        <img src="/static/poster/fast-poster-snapshot.png" height="200">
+      </a>
+      <p style="margin-top: 50px">Design principles:</p>
+    <ul>
+      <li style="margin-bottom: 5px">Optimized for use on <b>small farms</b>;</li>
+      <li style="margin-bottom: 5px">Integrates economic and environment/climate legal constraints;</li>
+      <li style="margin-bottom: 5px">Proposes <b>future-proof</b> digital solutions for simplifying farm and CAP-related tasks;</li>
+      <li style="margin-bottom: 5px">Provides access to a <b>large user base</b> of small farmers to propose <b>advanced services</b> to (public and private);</li>
+      <li style="margin-bottom: 5px">Makes full use of EU-developed remote sensing (Copernicus), geo-positioning (Galileo), cloud-based data and information access capabilities (e.g. DIAS).</li>
+    </ul>
+    <p style="margin-top: 50px">The proposed FaST platform:</p>
+    <ul>
+      <li style="margin-bottom: 5px">A <b>modular</b> architecture that responds to a large volume of users, takes into account the evolving nature of the tool (new modules and applications) and integrates additional services.</li>
+      <li style="margin-bottom: 5px">A <b>multi-technology</b> architecture that supports the adoption and implementation of the tool and provides adaptability to <b>existing skills, know-how and codebase</b>.</li>
+      <li style="margin-bottom: 5px">A <b>cloud-native</b> architecture that ensures a consistent cloud strategy.</li>
+    </ul>
+    <p style="margin-top: 50px"><i>Developed as part of the European Commission support for the implementation of the Farm Sustainability tool for Nutrients (FaST).<i></p>
+    <p><small>All the code produced for the application and the platform has been published on public repositories, available <a href="https://github.com/PwC-FaST">here</a>.</small><p>
+  </div>
+    </div>
+  </body>
+</html>

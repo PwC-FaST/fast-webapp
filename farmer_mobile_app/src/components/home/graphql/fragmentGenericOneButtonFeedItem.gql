@@ -1,0 +1,11 @@
+fragment fragmentGenericOneButtonFeedItem on GenericOneButtonFeedItemType {
+  id
+  __typename
+  timestamp
+  timegroup
+  component
+  header
+  text
+  buttonText
+  buttonHref
+}

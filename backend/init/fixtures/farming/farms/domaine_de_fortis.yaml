@@ -1,0 +1,73 @@
+- model: farming.Farm
+  pk: 1
+  fields:
+    name: Domaine de Fortis
+    farmers: [4]
+
+# Farm parcels
+
+- model: farming.FarmParcel
+  pk: 11
+  fields:
+    farm: 1
+    name: Parcel 1
+    lpis_parcel_id: lpis:fr:R76:3142476
+    farming_commitments: ['ORG']
+    crop_species: 107
+    added_at: 2019-01-09T13:00:00+01:00
+    added_by: 4
+- model: farming.FarmParcel
+  pk: 12
+  fields:
+    farm: 1
+    name: Parcel 2
+    lpis_parcel_id: lpis:fr:R76:10037468
+    farming_commitments: ['ORG', 'AGF']
+    crop_species: 110
+    added_at: 2019-01-09T13:01:00+01:00
+    added_by: 4
+- model: farming.FarmParcel
+  pk: 13
+  fields:
+    farm: 1
+    name: Parcel 3
+    crop_species: 102
+    lpis_parcel_id: lpis:fr:R76:3117106
+    added_at: 2019-01-09T13:02:00+01:00
+    added_by: 4
+- model: farming.FarmParcel
+  pk: 14
+  fields:
+    farm: 1
+    name: Parcel 4
+    crop_species: 98
+    lpis_parcel_id: lpis:fr:R76:3117105
+    added_at: 2019-01-09T13:03:00+01:00
+    added_by: 4
+
+# Farm livestock
+
+- model: farming.FarmLivestock
+  pk: 11
+  fields:
+    farm: 1
+    livestock_species: 101
+    number_of_heads: 10
+    start_at:
+    end_at:
+- model: farming.FarmLivestock
+  pk: 12
+  fields:
+    farm: 1
+    livestock_species: 202
+    number_of_heads: 42
+    start_at:
+    end_at:
+- model: farming.FarmLivestock
+  pk: 13
+  fields:
+    farm: 1
+    livestock_species: 305
+    number_of_heads: 17
+    start_at:
+    end_at:

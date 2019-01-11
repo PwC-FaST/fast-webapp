@@ -1,0 +1,21 @@
+#import "./fragmentFarmer.gql"
+#import "./fragmentFarmParcel.gql"
+#import "./fragmentFarmLivestock.gql"
+#import "./fragmentGisInfo.gql"
+
+fragment fragmentFarm on FarmType {
+  id
+  name
+  gisInfo {
+    ...fragmentGisInfo
+  }
+  farmers {
+    ...fragmentFarmer
+  }
+  farmParcels {
+    ...fragmentFarmParcel
+  }
+  farmLivestock {
+    ...fragmentFarmLivestock
+  }
+}

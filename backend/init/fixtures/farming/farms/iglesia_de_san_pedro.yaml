@@ -1,0 +1,73 @@
+- model: farming.Farm
+  pk: 2
+  fields:
+    name: Iglesia de San Pedro
+    farmers: [1]
+
+# Farm parcels
+
+- model: farming.FarmParcel
+  pk: 21
+  fields:
+    farm: 2
+    name: Parcel 1
+    lpis_parcel_id: lpis:es:castillayleon:493630234
+    farming_commitments: ['ORG']
+    crop_species: 107
+    added_at: 2019-01-09T13:00:00+01:00
+    added_by: 1
+- model: farming.FarmParcel
+  pk: 22
+  fields:
+    farm: 2
+    name: Parcel 2
+    lpis_parcel_id: lpis:es:castillayleon:1325549974
+    farming_commitments: ['ORG', 'AGF']
+    crop_species: 110
+    added_at: 2019-01-09T13:01:00+01:00
+    added_by: 1
+- model: farming.FarmParcel
+  pk: 23
+  fields:
+    farm: 2
+    name: Parcel 3
+    crop_species: 102
+    lpis_parcel_id: lpis:es:castillayleon:494382840
+    added_at: 2019-01-09T13:02:00+01:00
+    added_by: 1
+- model: farming.FarmParcel
+  pk: 24
+  fields:
+    farm: 2
+    name: Parcel 4
+    crop_species: 98
+    lpis_parcel_id: lpis:es:castillayleon:494382821
+    added_at: 2019-01-09T13:03:00+01:00
+    added_by: 1
+
+# Farm livestock
+
+- model: farming.FarmLivestock
+  pk: 21
+  fields:
+    farm: 2
+    livestock_species: 101
+    number_of_heads: 10
+    start_at:
+    end_at:
+- model: farming.FarmLivestock
+  pk: 22
+  fields:
+    farm: 2
+    livestock_species: 202
+    number_of_heads: 42
+    start_at:
+    end_at:
+- model: farming.FarmLivestock
+  pk: 23
+  fields:
+    farm: 2
+    livestock_species: 305
+    number_of_heads: 17
+    start_at:
+    end_at:

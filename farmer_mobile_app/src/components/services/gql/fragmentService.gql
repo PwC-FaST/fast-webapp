@@ -1,0 +1,18 @@
+#import "./fragmentProvider.gql"
+#import "./fragmentSubscriptionType.gql"
+#import "./fragmentUserServiceSubscription.gql"
+
+fragment fragmentService on ServiceType {
+  id
+  displayName
+  shortDescription
+  provider {
+    ...fragmentProvider
+  }
+  subscriptionType {
+    ...fragmentSubscriptionType
+  }
+  userSubscriptions {
+    ...fragmentUserServiceSubscription
+  }
+}

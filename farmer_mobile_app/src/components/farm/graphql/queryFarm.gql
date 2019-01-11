@@ -1,0 +1,7 @@
+#import "./fragmentFarm.gql"
+
+query farm {
+  farm {
+    ...fragmentFarm
+  }
+}

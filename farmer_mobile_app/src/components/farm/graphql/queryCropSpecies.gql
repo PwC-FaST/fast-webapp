@@ -1,0 +1,10 @@
+#import "./fragmentCropSpecies.gql"
+
+query cropSpecies {
+  cropSpecies {
+    ...fragmentCropSpecies
+    children {
+      ...fragmentCropSpecies
+    }
+  }
+}

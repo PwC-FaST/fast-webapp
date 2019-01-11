@@ -1,0 +1,17 @@
+fragment fragmentNatura2000Intersection on Natura2000IntersectionType {
+  id
+  intersects
+  minimumDistance
+  intersection
+  natura2000Feature {
+    id
+    wktType
+    siteCode
+    siteName
+    country {
+      name
+    }
+    releasedAt
+    siteTypes
+  }
+}

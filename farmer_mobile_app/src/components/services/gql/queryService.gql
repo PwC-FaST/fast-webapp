@@ -1,0 +1,7 @@
+#import "./fragmentService.gql"
+
+query service($id: ID!) {
+  service(id: $id) {
+    ...fragmentService
+  }
+}

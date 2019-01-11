@@ -1,0 +1,18 @@
+fragment fragmentFarmingFarmParcelAddedToFarmFeedItem on FarmingFarmParcelAddedToFarmFeedItemType {
+  id
+  __typename
+  timestamp
+  timegroup
+  component
+  farmParcel {
+    id
+    name
+    addedAt
+    lpisParcelId
+    snapshotSvg
+    farm {
+      id
+      name
+    }
+  }
+}

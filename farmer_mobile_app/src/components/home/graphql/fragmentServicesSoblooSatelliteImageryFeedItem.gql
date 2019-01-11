@@ -1,0 +1,19 @@
+fragment fragmentServicesSoblooSatelliteImageryFeedItem on ServicesSoblooSatelliteImageryFeedItemType {
+  id
+  __typename
+  timestamp
+  timegroup
+  component
+  service {
+    id
+    __typename
+    displayName
+    provider {
+      id
+      __typename
+      shortName
+      displayName
+      logo
+    }
+  }
+}

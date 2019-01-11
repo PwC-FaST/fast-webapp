@@ -1,0 +1,38 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django-localized-fields = "==4.5"
+"psycopg2" = "==2.7.5"
+pillow = "==5.2.0"
+djangorestframework = "==3.8.2"
+markdown = "==3.0"
+django-filter = "==2.0.0"
+django-constance = "==2.3.1"
+django = "==2.1.5"
+dj-pagination = "==2.4.0"
+graphene-django = ">=2.0"
+django-admin-interface = "==0.8.2"
+django-extensions = "==2.1.4"
+django-configurations = "==2.1"
+"psycopg2-binary" = "==2.7.6.1"
+requests = "==2.21.0"
+django-graphql-jwt = "==0.2.0"
+graphene-file-upload = "==1.2.2"
+django-nested-admin = "==3.1.2"
+django-webpack-loader = "==0.6.0"
+gunicorn = "==19.9.0"
+pyyaml = ">=4.2b1"
+
+[dev-packages]
+pydotplus = "*"
+prospector = "*"
+"autopep8" = "*"
+
+[requires]
+python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true

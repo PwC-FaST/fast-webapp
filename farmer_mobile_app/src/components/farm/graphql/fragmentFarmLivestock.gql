@@ -1,0 +1,11 @@
+#import "./fragmentLivestockSpecies.gql"
+
+fragment fragmentFarmLivestock on FarmLivestockType {
+  id
+  numberOfHeads
+  startAt
+  endAt
+  livestockSpecies {
+    ...fragmentLivestockSpecies
+  }
+}

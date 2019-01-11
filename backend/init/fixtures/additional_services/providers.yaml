@@ -1,0 +1,134 @@
+- model: additional_services.Provider
+  pk: 1
+  fields:
+    logo: additional_services/providers/logos/2018/11/27/Logo DAAF.png
+    display_name:
+      en: French Ministry of Agriculture
+      fr: Direction de l'Alimentation, de l'Agriculture et de la Forêt
+    short_name:
+      en: DAAF
+      fr: DAAF
+    website:
+      en: http://agriculture.gouv.fr/
+      fr: http://agriculture.gouv.fr/
+    owners:
+      - 5
+- model: additional_services.Provider
+  pk: 2
+  fields:
+    logo: additional_services/providers/logos/2018/11/27/european-union.png
+    display_name:
+      en: European Commission
+      fr: Commission européenne
+    short_name:
+      en: EC
+      fr: CE
+    website:
+      en: https://ec.europa.eu/commission/index_en
+      fr: https://ec.europa.eu/commission/index_fr
+      es: https://ec.europa.eu/commission/index_es
+      de: https://ec.europa.eu/commission/index_de
+    owners:
+      - 6
+- model: additional_services.Provider
+  pk: 3
+  fields:
+    logo: additional_services/providers/logos/2018/11/27/JRC.png
+    display_name:
+      en: JRC Water Knowledge Hub
+      fr: JRC Water Knowledge Hub
+    short_name:
+      en: JRC Water
+      fr: JRC Water
+    website:
+      en: http://water.jrc.ec.europa.eu/waterportal
+    owners:
+      - 7
+- model: additional_services.Provider
+  pk: 4
+  fields:
+    logo: additional_services/providers/logos/2018/11/27/Logo Teagasc.png
+    display_name:
+      en: Teagasc - Agriculture and Food Development Authority
+    short_name:
+      en: Teagasc
+    website:
+      en: https://www.teagasc.ie/
+      ga: https://www.teagasc.ie/about/gaeilge/preaseisiuinti/
+    owners:
+      - 8
+- model: additional_services.Provider
+  pk: 5
+  fields:
+    logo: additional_services/providers/logos/2018/11/27/Agrisat logo.png
+    display_name:
+      en: Agrisat
+      es: Agrisat
+    short_name:
+      en: Agrisat
+      es: Agrisat
+    website:
+      es: https://www.agrisat.es/
+      en: https://www.agrisat.es/en/
+    owners:
+      - 9
+- model: additional_services.Provider
+  pk: 6
+  fields:
+    logo: additional_services/providers/logos/2018/11/27/EIP agri logo.png
+    display_name:
+      en: EIP-Agri project GS-Netz
+      de: EIP-Agri project GS-Netz
+    short_name:
+      en: EIP-Agri
+      es: EIP-Agri
+    website:
+      en: https://www.hs-geisenheim.de/en/research/departments/vegetable-crops/department-of-vegetable-crops/irrigation/ble-gsehen/
+    owners:
+      - 10
+- model: additional_services.Provider
+  pk: 7
+  fields:
+    logo: additional_services/providers/logos/2018/11/27/DG CLIMA.png
+    display_name:
+      en: DG CLIMA
+      fr: DG CLIMA
+    short_name:
+      en: DG CLIMA
+      fr: DG CLIMA
+    website:
+      en: https://ec.europa.eu/clima/index_en
+    owners:
+      - 11
+- model: additional_services.Provider
+  pk: 8
+  fields:
+    logo: additional_services/providers/logos/2018/11/27/airbus.png
+    display_name:
+      en: Airbus
+      fr: Airbus
+    short_name:
+      en: Airbus
+      fr: Airbus
+    website:
+      en: https://www.airbus.com
+    owners:
+      - 12
+- model: additional_services.Provider
+  pk: 9
+  fields:
+    logo: additional_services/providers/logos/2018/11/27/sobloo.jpg
+    display_name:
+      en: Sobloo
+      fr: Sobloo
+    short_name:
+      en: Sobloo
+      fr: Sobloo
+    website:
+      en: https://sobloo.eu
+    owners:
+      - 13
+
+
+
+

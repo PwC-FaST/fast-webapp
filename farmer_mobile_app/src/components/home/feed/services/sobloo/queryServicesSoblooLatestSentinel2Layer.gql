@@ -1,0 +1,13 @@
+query servicesSoblooLatestSentinel2Layer($latitude: Float!, $longitude: Float!, $maxCloudCover: Float) {
+  servicesSoblooLatestSentinel2Layer(latitude: $latitude, longitude: $longitude, maxCloudCover: $maxCloudCover) {
+    id
+    latitude
+    longitude
+    uid
+    externalId
+    wmtsLayerUrl
+    cloudCover
+    missionName
+    collectedAt
+  }
+}

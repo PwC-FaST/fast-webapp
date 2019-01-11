@@ -1,0 +1,33 @@
+#import "./fragmentMessagingNewThreadFeedItem.gql"
+#import "./fragmentMessagingNewMessagesInThreadFeedItem.gql"
+#import "./fragmentFarmingFarmParcelAddedToFarmFeedItem.gql"
+#import "./fragmentWeatherForecastFeedItem.gql"
+#import "./fragmentGenericOneButtonFeedItem.gql"
+#import "./fragmentServicesSatelliteImageryFeedItem.gql"
+#import "./fragmentServicesSoblooSatelliteImageryFeedItem.gql"
+
+query feed {
+  feed {
+    ... on MessagingNewThreadFeedItemType {
+      ...fragmentMessagingNewThreadFeedItem
+    }
+    ... on MessagingNewMessagesInThreadFeedItemType {
+      ...fragmentMessagingNewMessagesInThreadFeedItem
+    }
+    ... on FarmingFarmParcelAddedToFarmFeedItemType {
+      ...fragmentFarmingFarmParcelAddedToFarmFeedItem
+    }
+    ... on WeatherForecastFeedItemType {
+      ...fragmentWeatherForecastFeedItem
+    }
+    ... on GenericOneButtonFeedItemType {
+      ...fragmentGenericOneButtonFeedItem
+    }
+    ... on ServicesSatelliteImageryFeedItemType {
+      ...fragmentServicesSatelliteImageryFeedItem
+    }
+    ... on ServicesSoblooSatelliteImageryFeedItemType {
+      ...fragmentServicesSoblooSatelliteImageryFeedItem
+    }
+  }
+}

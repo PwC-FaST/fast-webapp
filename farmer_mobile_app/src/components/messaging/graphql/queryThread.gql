@@ -1,0 +1,7 @@
+#import "./fragmentThread.gql"
+
+query thread($threadId: Int!) {
+  thread(threadId: $threadId) {
+    ...fragmentThread
+  }
+}

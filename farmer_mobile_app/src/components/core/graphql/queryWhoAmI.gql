@@ -1,0 +1,7 @@
+#import "./fragmentCurrentUser.gql"
+
+query whoAmI {
+  whoAmI {
+    ...fragmentCurrentUser
+  }
+}

@@ -1,0 +1,7 @@
+mutation UpdateUserServiceSubscription($serviceId: ID!, $subscribe: Boolean!) {
+  updateUserServiceSubscription(serviceId: $serviceId, subscribe: $subscribe) {
+    userServiceSubscription {
+      subscribedAt
+    }
+  }
+}

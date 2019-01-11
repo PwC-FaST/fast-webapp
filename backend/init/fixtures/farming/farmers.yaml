@@ -1,0 +1,16 @@
+- model: farming.Farmer
+  pk: 1
+  fields:
+    user: 1
+- model: farming.Farmer
+  pk: 2
+  fields:
+    user: 2
+- model: farming.Farmer
+  pk: 3
+  fields:
+    user: 3
+- model: farming.Farmer
+  pk: 4
+  fields:
+    user: 4

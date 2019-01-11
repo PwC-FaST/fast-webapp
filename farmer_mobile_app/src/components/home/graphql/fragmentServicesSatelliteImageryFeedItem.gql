@@ -1,0 +1,23 @@
+fragment fragmentServicesSatelliteImageryFeedItem on ServicesSatelliteImageryFeedItemType {
+  id
+  __typename
+  timestamp
+  timegroup
+  component
+  service {
+    id
+    __typename
+    displayName
+    provider {
+      id
+      __typename
+      shortName
+      displayName
+      logo
+    }
+  }
+  band
+  title
+  colorScale
+  date
+}

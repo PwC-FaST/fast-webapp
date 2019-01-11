@@ -1,0 +1,9 @@
+#import "./fragmentPlan.gql"
+
+mutation updatePlan($planId: ID!, $name: String, $isActive: Boolean) {
+  updatePlan(planId: $planId, name: $name, isActive: $isActive) {
+    plan {
+      ...fragmentPlan
+    }
+  }
+}

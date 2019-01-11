@@ -1,0 +1,6 @@
+fragment fragmentProvider on ProviderType {
+  id
+  shortName
+  displayName
+  logo
+}

@@ -1,0 +1,14 @@
+- model: core.Country
+  pk: FR
+  fields:
+    name:
+      en: France
+      fr: France
+      es: Francia
+- model: core.Country
+  pk: ES
+  fields:
+    name:
+      en: Spain
+      fr: Espagne
+      es: España

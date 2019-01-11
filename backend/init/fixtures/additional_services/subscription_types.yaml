@@ -1,0 +1,18 @@
+- model: additional_services.SubscriptionType
+  pk: FREE
+  fields:
+    display_name:
+      en: Free
+      fr: Gratuit
+- model: additional_services.SubscriptionType
+  pk: MONTH
+  fields:
+    display_name:
+      en: Monthly subscription
+      fr: Abonnement mensuel
+- model: additional_services.SubscriptionType
+  pk: YEAR
+  fields:
+    display_name:
+      en: Yearly subscription
+      fr: Abonnement annuel

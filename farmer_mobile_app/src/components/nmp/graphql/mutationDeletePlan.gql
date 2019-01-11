@@ -1,0 +1,9 @@
+#import "./fragmentPlan.gql"
+
+mutation deletePlan($planId: ID!) {
+  deletePlan(planId: $planId) {
+    plan {
+     ...fragmentPlan
+    }
+  }
+}

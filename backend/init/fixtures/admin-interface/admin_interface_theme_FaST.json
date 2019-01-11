@@ -1,0 +1,43 @@
+[
+{
+    "model": "admin_interface.theme",
+    "pk": 1,
+    "fields": {
+        "name": "FaST",
+        "active": true,
+        "title": "Farm Sustainability Tool",
+        "title_color": "#3B4A5E",
+        "title_visible": true,
+        "logo": "admin-interface/logo/logo.png",
+        "logo_color": "#FFFFFF",
+        "logo_visible": true,
+        "favicon": "admin-interface/favicon/favicon.ico",
+        "env": "development",
+        "env_visible": false,
+        "css_header_background_color": "#FFFFFF",
+        "css_header_text_color": "#3B4A5E",
+        "css_header_link_color": "#427F6D",
+        "css_header_link_hover_color": "#5FB99F",
+        "css_module_background_color": "#3B4A5E",
+        "css_module_text_color": "#FFFFFF",
+        "css_module_link_color": "#FFFFFF",
+        "css_module_link_hover_color": "#5FB99F",
+        "css_module_rounded_corners": true,
+        "css_generic_link_color": "#427F6D",
+        "css_generic_link_hover_color": "#5FB99F",
+        "css_save_button_background_color": "#427F6D",
+        "css_save_button_background_hover_color": "#5FB99F",
+        "css_save_button_text_color": "#FFFFFF",
+        "css_delete_button_background_color": "#B83E44",
+        "css_delete_button_background_hover_color": "#EE5158",
+        "css_delete_button_text_color": "#FFFFFF",
+        "css": "",
+        "related_modal_active": true,
+        "related_modal_background_color": "#3B4A5E",
+        "related_modal_background_opacity": "0.3",
+        "related_modal_rounded_corners": true,
+        "list_filter_dropdown": true,
+        "recent_actions_visible": true
+    }
+}
+]

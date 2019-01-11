@@ -1,0 +1,196 @@
+- model: core.Country
+  pk: AT
+  fields:
+    name:
+      en: Austria
+      de: Österreich
+      fr: Autriche
+- model: core.Country
+  pk: BE
+  fields:
+    name:
+      en: Belgium
+      fr: Belgique
+      nl: België
+      de: Belgien
+- model: core.Country
+  pk: BG
+  fields:
+    name:
+      en: Bulgaria
+      bg: България
+      fr: Bulgarie
+- model: core.Country
+  pk: HR
+  fields:
+    name:
+      en: Croatia
+      hr: Hrvatska
+      fr: Croatie
+- model: core.Country
+  pk: CY
+  fields:
+    name:
+      en: Cyprus
+      el: Κύπρος
+      fr: Chypre
+- model: core.Country
+  pk: CZ
+  fields:
+    name:
+      en: Czech Republic
+      cs: Česko
+      fr: République tchèque
+- model: core.Country
+  pk: DK
+  fields:
+    name:
+      en: Denmark
+      da: Danmark
+      fr: Danemark
+- model: core.Country
+  pk: EE
+  fields:
+    name:
+      en: Estonia
+      et: Eesti
+      fr: Estonie
+- model: core.Country
+  pk: FI
+  fields:
+    name:
+      en: Finland
+      fi: Suomi
+      fr: Finlande
+- model: core.Country
+  pk: FR
+  fields:
+    name:
+      en: France
+      fr: France
+      es: Francia
+- model: core.Country
+  pk: DE
+  fields:
+    name:
+      en: Germany
+      de: Deutschland
+      fr: Allemagne
+- model: core.Country
+  pk: GR
+  fields:
+    name:
+      en: Greece
+      el: Ελλάδα
+      fr: Grèce
+- model: core.Country
+  pk: HU
+  fields:
+    name:
+      en: Hungary
+      hu: Magyarország
+      fr: Hongrie
+- model: core.Country
+  pk: IE
+  fields:
+    name:
+      en: Ireland
+      ga: Éire
+      fr: Irlande
+- model: core.Country
+  pk: IT
+  fields:
+    name:
+      en: Italy
+      it: Italia
+      fr: Italie
+- model: core.Country
+  pk: LV
+  fields:
+    name:
+      en: Latvia
+      lv: Latvija
+      fr: Lettonie
+- model: core.Country
+  pk: LT
+  fields:
+    name:
+      en: Lithuania
+      lt: Lietuva
+      fr: Lithuanie
+- model: core.Country
+  pk: LU
+  fields:
+    name:
+      en: Luxembourg
+      lb: Lëtzebuerg
+      fr: Luxembourg
+- model: core.Country
+  pk: MT
+  fields:
+    name:
+      en: Malta
+      mt: Malta
+      fr: Malte
+- model: core.Country
+  pk: NL
+  fields:
+    name:
+      en: Netherlands
+      nl: Nederland
+      fr: Pays-Bas
+- model: core.Country
+  pk: PL
+  fields:
+    name:
+      en: Poland
+      pl: Polska
+      fr: Pologne
+- model: core.Country
+  pk: PT
+  fields:
+    name:
+      en: Portugal
+      pt: Portugal
+      fr: Portugal
+- model: core.Country
+  pk: RO
+  fields:
+    name:
+      en: Romania
+      ro: România
+      fr: Roumanie
+- model: core.Country
+  pk: SK
+  fields:
+    name:
+      en: Slovakia
+      sk: Slovensko
+      fr: Slovaquie
+- model: core.Country
+  pk: SI
+  fields:
+    name:
+      en: Slovenia
+      sl: Slovenija
+      fr: Slovénie
+- model: core.Country
+  pk: ES
+  fields:
+    name:
+      en: Spain
+      fr: Espagne
+      es: España
+- model: core.Country
+  pk: SE
+  fields:
+    name:
+      en: Sweden
+      sv: Sverige
+      fr: Suède
+- model: core.Country
+  pk: UK
+  fields:
+    name:
+      en: United Kingdom
+      fr: Royaume-Uni

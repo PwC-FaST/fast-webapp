@@ -1,0 +1,25 @@
+#import "../../core/graphql/fragmentUser.gql"
+#import "./fragmentImportedOrExportedLivestockManure.gql"
+#import "./fragmentProducedLivestockManure.gql"
+#import "./fragmentFarmParcelNutrientPlanResult.gql"
+#import "./fragmentFarmParcelCropNeeds.gql"
+
+fragment fragmentPlan on PlanType {
+  id
+  name
+  createdAt
+  createdBy {
+    ...fragmentUser
+  }
+  updatedAt
+  isActive
+  producedLivestockManures {
+    ...fragmentProducedLivestockManure
+  }
+  importedOrExportedLivestockManures {
+    ...fragmentImportedOrExportedLivestockManure
+  }
+  farmParcelCropNeeds {
+    ...fragmentFarmParcelCropNeeds
+  }
+}

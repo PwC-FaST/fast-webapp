@@ -1,0 +1,13 @@
+#import "../../farm/graphql/fragmentLivestockSpecies.gql"
+
+fragment fragmentImportedOrExportedLivestockManure on ImportedOrExportedLivestockManureType {
+  id
+  livestockSpecies {
+    ...fragmentLivestockSpecies
+  }
+  purity
+  nitrogenContent
+  phosphorusContent
+  potassiumContent
+  totalQuantity
+}

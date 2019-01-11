@@ -1,0 +1,9 @@
+#import "./fragmentFarmParcel.gql"
+
+mutation UpdateFarmParcel($farmParcelId: ID!, $name: String, $farmingCommitmentIds: [ID!], $cropSpeciesId: ID) {
+  updateFarmParcel(farmParcelId: $farmParcelId, name: $name, farmingCommitmentIds: $farmingCommitmentIds, cropSpeciesId: $cropSpeciesId) {
+    farmParcel {
+      ...fragmentFarmParcel
+    }
+  }
+}

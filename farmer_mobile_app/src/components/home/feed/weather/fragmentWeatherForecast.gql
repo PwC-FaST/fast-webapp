@@ -1,0 +1,25 @@
+fragment fragmentWeatherForecast on WeatherType {
+  id
+  daily {
+    id
+    data {
+      id
+      datetime
+      dayOfWeek
+      summary
+      icon
+      temperatureLow
+      temperatureHigh
+      precipIntensity
+      precipProbability
+    }
+  }
+  alerts {
+    id
+    title
+    datetime
+    expires
+    description
+    uri
+  }
+}

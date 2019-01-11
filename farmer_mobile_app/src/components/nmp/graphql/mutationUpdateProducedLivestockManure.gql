@@ -1,0 +1,9 @@
+#import "./fragmentProducedLivestockManure.gql"
+
+mutation UpdateProducedLivestockManure($producedLivestockManureId: ID!, $livestockSpeciesId: ID, $numberOfHeads: Int, $purity: Float, $nitrogenContent: Float, $phosphorusContent: Float, $potassiumContent: Float, $storageDays: Int, $litersPerHeadPerDay: Float) {
+  updateProducedLivestockManure(producedLivestockManureId: $producedLivestockManureId, livestockSpeciesId: $livestockSpeciesId, numberOfHeads: $numberOfHeads, purity: $purity, nitrogenContent: $nitrogenContent, phosphorusContent: $phosphorusContent, potassiumContent:$potassiumContent, storageDays: $storageDays, litersPerHeadPerDay: $litersPerHeadPerDay) {
+    producedLivestockManure {
+      ...fragmentProducedLivestockManure
+    }
+  }
+}

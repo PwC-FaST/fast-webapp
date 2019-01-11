@@ -1,0 +1,138 @@
+# ------------------------------------------------------------------
+# FaSTUser table
+#
+# the default password must be available as an environment variable
+# FAST_WEBAPP_DEFAULT_DJANGO_PASSWORD=.....
+# ------------------------------------------------------------------
+- model: core.FaSTUser
+  pk: 1
+  fields:
+    username: isidro
+    country: ES
+    first_name: Isidro
+    last_name: Campos
+    email: isidro.campos@mail.net
+    is_staff: yes
+    is_active: yes
+    is_superuser: yes
+- model: core.FaSTUser
+  pk: 2
+  fields:
+    username: claudia
+    country: ES
+    first_name: Claudia
+    last_name: Muresan
+    email: claudia.muresan@mail.net
+    is_staff: yes
+    is_active: yes
+- model: core.FaSTUser
+  pk: 3
+  fields:
+    username: julien
+    country: FR
+    first_name: Julien
+    last_name: Cloud
+    email: julien.cloud@gmail.com
+    is_staff: yes
+    is_active: yes
+- model: core.FaSTUser
+  pk: 4
+  fields:
+    username: fast
+    country:
+    first_name: ''
+    last_name: ''
+    email: ''
+    is_staff: yes
+    is_active: yes
+    is_superuser: yes
+- model: core.FaSTUser
+  pk: 5
+  fields:
+    username: fr-daaf
+    country: FR
+    first_name: FR
+    last_name: DAAF
+    email: fr.daaf@mail.net
+    is_staff: no
+    is_active: yes
+- model: core.FaSTUser
+  pk: 6
+  fields:
+    username: ec
+    country:
+    first_name: European Commission
+    last_name: ''
+    email: ec@mail.net
+    is_staff: no
+    is_active: yes
+- model: core.FaSTUser
+  pk: 7
+  fields:
+    username: jrc
+    country:
+    first_name: Joint Research Center
+    last_name: ''
+    email: jrc@mail.net
+    is_staff: no
+    is_active: yes
+- model: core.FaSTUser
+  pk: 8
+  fields:
+    username: teagasc
+    country:
+    first_name: Teagasc
+    last_name: ''
+    email: teagasc@mail.net
+    is_staff: no
+    is_active: yes
+- model: core.FaSTUser
+  pk: 9
+  fields:
+    username: agrisat
+    country:
+    first_name: Agrisat
+    last_name: ''
+    email: agrisat@mail.net
+    is_staff: no
+    is_active: yes
+- model: core.FaSTUser
+  pk: 10
+  fields:
+    username: eip-agri
+    country:
+    first_name: EIP-Agri
+    last_name: ''
+    email: eip-agri@mail.net
+    is_staff: no
+    is_active: yes
+- model: core.FaSTUser
+  pk: 11
+  fields:
+    username: dg-clima
+    country:
+    first_name: DG CLIMA
+    last_name: ''
+    email: dgclima@mail.net
+    is_staff: no
+    is_active: yes
+- model: core.FaSTUser
+  pk: 12
+  fields:
+    username: airbus
+    country:
+    first_name: Airbus
+    last_name: ''
+    email: airbus@mail.net
+    is_staff: no
+    is_active: yes
+- model: core.FaSTUser
+  pk: 13
+  fields:
+    username: sobloo
+    country:
+    first_name: Sobloo DIAS
+    last_name: ''
+    email: sobloo@mail.net
+    is_staff: no
+    is_active: yes

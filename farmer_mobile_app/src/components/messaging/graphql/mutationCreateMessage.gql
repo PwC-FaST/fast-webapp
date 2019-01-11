@@ -1,0 +1,9 @@
+#import "./fragmentMessage.gql"
+
+mutation createMessage($threadId: Int!, $content: String!, $attachment: Upload) {
+  createMessage(threadId: $threadId, content: $content, attachment: $attachment) {
+		message {
+      ...fragmentMessage
+    }
+  }
+}

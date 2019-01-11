@@ -1,0 +1,7 @@
+#import "./fragmentContact.gql"
+
+query contact($contactId: ID!) {
+  contact(contactId: $contactId) {
+    ...fragmentContact
+  }
+}

@@ -1,0 +1,17 @@
+fragment fragmentSoilInfo on SoilInfoType {
+  id
+  coarse
+  clay
+  silt
+  sand
+  pHinH20
+  pHinCaCl2
+  organicCarbon
+  CaCO3
+  nitrogen
+  phosphorus
+  potassium
+  cationExchangeCapacity
+  numberOfSoilSamplesWithinBuffer
+  closestSampleDistance
+}

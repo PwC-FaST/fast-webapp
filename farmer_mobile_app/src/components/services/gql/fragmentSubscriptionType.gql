@@ -1,0 +1,4 @@
+fragment fragmentSubscriptionType on SubscriptionTypeType {
+  id
+  displayName
+}

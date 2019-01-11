@@ -1,0 +1,7 @@
+fragment fragmentAddress on AddressType {
+  id
+  street
+  city
+  postcode
+  country
+}

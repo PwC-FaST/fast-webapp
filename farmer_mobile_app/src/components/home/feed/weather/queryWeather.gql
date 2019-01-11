@@ -1,0 +1,14 @@
+#import "./fragmentWeatherYesterday.gql"
+#import "./fragmentWeatherForecast.gql"
+
+query weather($timestamp: DateTime) {
+  weather(timestamp: $timestamp) {
+    id
+    yesterday {
+      ...fragmentWeatherYesterday
+    }
+    forecast {
+      ...fragmentWeatherForecast
+    }
+  }
+}

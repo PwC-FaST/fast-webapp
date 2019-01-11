@@ -1,0 +1,10 @@
+#import "../../core/graphql/fragmentUser.gql"
+
+fragment fragmentMessage on MessageType {
+  id
+  createdBy {
+    ...fragmentUser
+  }
+  createdAt
+  content
+}

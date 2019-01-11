@@ -1,0 +1,6 @@
+fragment fragmentCentroid on CoordinatesType {
+  id
+  coordinateReferenceSystem
+  x
+  y
+}

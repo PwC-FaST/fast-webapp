@@ -1,0 +1,9 @@
+#import "./fragmentFarmParcel.gql"
+
+mutation AddFarmParcelToFarm($farmId: ID!, $lpisParcelId: String!) {
+  addFarmParcelToFarm(farmId: $farmId, lpisParcelId: $lpisParcelId) {
+    farmParcel {
+      ...fragmentFarmParcel
+    }
+  }
+}

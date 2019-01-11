@@ -1,0 +1,9 @@
+#import "./fragmentContact.gql"
+
+mutation addContact($contactId: ID!) {
+  addContact(contactId: $contactId) {
+    contact {
+      ...fragmentContact
+    }
+  }
+}

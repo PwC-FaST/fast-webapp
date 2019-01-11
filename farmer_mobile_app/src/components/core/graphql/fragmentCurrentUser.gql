@@ -1,0 +1,14 @@
+fragment fragmentCurrentUser on CurrentFaSTUserType {
+  id
+  username
+  firstName
+  lastName
+  fullName
+  picture
+  country {
+    id
+    name
+  }
+  language
+  dateJoined
+}

@@ -1,0 +1,15 @@
+fragment fragmentMessagingNewThreadFeedItem on MessagingNewThreadFeedItemType {
+  id
+  __typename
+  timestamp
+  timegroup
+  component
+  thread {
+    id
+    subject
+    createdBy {
+      id
+      fullName
+    }
+  }
+}

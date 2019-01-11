@@ -1,0 +1,11 @@
+fragment fragmentHydroIntersection on HydroIntersectionType {
+  id
+  intersects
+  minimumDistance
+  intersection
+  hydrologyFeature {
+    id
+    wktType
+    name
+  }
+}

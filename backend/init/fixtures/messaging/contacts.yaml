@@ -1,0 +1,41 @@
+
+- model: messaging.Contact
+  pk: 1
+  fields:
+    user: 1
+    contacts: []
+- model: messaging.Contact
+  pk: 2
+  fields:
+    user: 2
+    contacts: [1]
+- model: messaging.Contact
+  pk: 3
+  fields:
+    user: 3
+    contacts: [1, 2]
+- model: messaging.Contact
+  pk: 4
+  fields:
+    user: 4
+    contacts: [1, 2, 3]
+- model: messaging.Contact
+  pk: 5
+  fields:
+    user: 5
+    contacts: []
+- model: messaging.Contact
+  pk: 6
+  fields:
+    user: 6
+    contacts: []
+- model: messaging.Contact
+  pk: 7
+  fields:
+    user: 7
+    contacts: []
+- model: messaging.Contact
+  pk: 8
+  fields:
+    user: 8
+    contacts: []

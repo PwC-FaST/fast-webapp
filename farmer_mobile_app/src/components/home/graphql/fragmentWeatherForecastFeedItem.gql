@@ -1,0 +1,7 @@
+fragment fragmentWeatherForecastFeedItem on WeatherForecastFeedItemType {
+  id
+  __typename
+  timestamp
+  timegroup
+  component
+}
