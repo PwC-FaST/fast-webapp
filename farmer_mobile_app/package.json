@@ -36,7 +36,7 @@
     "apollo-link-http": "^1.5.7",
     "apollo-link-state": "^0.4.2",
     "apollo-upload-client": "^9.1.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "cross-env": "^5.2.0",
     "framework7": "^3.6.2",
     "framework7-icons": "^0.9.1",
