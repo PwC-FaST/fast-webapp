@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 django-localized-fields = "==4.5"
 "psycopg2" = "==2.7.5"
-pillow = "==5.2.0"
+pillow = "==8.1.1"
 djangorestframework = "==3.8.2"
 markdown = "==3.0"
 django-filter = "==2.0.0"
